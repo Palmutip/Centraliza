@@ -3366,7 +3366,7 @@ namespace Centraliza
         private void btninicio_Click(object sender, EventArgs e)
         {
             ClicaInicio();
-            Limpacampos();
+            Limpacampos(); 
         }
         private void btnconfiguracoes_Click(object sender, EventArgs e)
         {
