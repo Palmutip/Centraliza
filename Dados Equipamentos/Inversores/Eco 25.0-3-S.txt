@@ -1,0 +1,48 @@
+DADOS DE ENTRADA:
+Área de tensão MPP 580 - 850 V CC
+Tensão máx. de entrada:(a 1000 W/m² / -10 °C na marcha lenta): 1000 V CC
+Tensão mín. de entrada 580 V CC
+Corrente máx. de entrada :44,2 A
+Max. conjunto corrente curto-circuito 66.3 A
+MPP 1
+Corrente máx. de curto-circuito dos módulos solares (I SC PV ): 66,3 A
+Corrente máx. de retorno 4) 48 A (RMS) 5)
+
+DADOS DE SAÍDA:
+Potência nominal de saída (P nom ) 25.000VA
+Potência máx. de saída 25.000 W
+Tensão nominal da rede 3 ~ NPE 220/230 V / 380/400 V (TRIFASICO 380V)
+Tensão mín. da rede 150 V / 260 V
+Tensão máx. da rede 275 V / 477 V
+Corrente nominal de saída a 220 / 230 V 37,9 / 36,2 A
+Corrente máx. de saída 38 A
+Frequência nominal 50 / 60 Hz 1)
+Fator de distorção < 2 %
+Fator de potência Cos Phi 0 - 1 ind./cap. 2)
+
+DADOS GERAIS:
+Grau de eficiência máxima 98 %
+Europ. Grau de eficiência U DCmin / U DCnom / U D-Cmax 97,99 / 97,47 / 97,07 %
+Consumo próprio durante a noite W & VA
+Refrigeramento Ventilação forçada regulada
+Grau de proteção IP 66
+Dimensões a x l x c 725 x 510 x 225 mm
+Peso (versão light) 35,69 kg (35,44 kg)
+Temperatura ambiente admissível - 25 °C - +60 °C
+Umidade do ar admissível 0 - 100 %
+Classe de emissão EMV A
+Categoria de sobretensão CC / CA 2 / 3
+Grau de poluição 2
+Emissão de ruídos dB(A) (ref. 1pW)
+Dispositivos de proteção
+Medição do isolamento CC integrado
+Comportamento na sobrecarga CC Deslocamento do ponto operacional, limitação de potência
+Separador CCintegrado
+Proteção contra sobretensão CC integrado
+RCMU integrado
+
+DISPOSITIVO DE PROTEÇÃO
+Medição de isolamento CC Sim
+Comportamento de sobrecarga Mudança de ponto de operação, limitação de potência
+Disjuntor CC Sim
+Porta-fusíveis de suporte integrado Sim (Fusível não incluso) 

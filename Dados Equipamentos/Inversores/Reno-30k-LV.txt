@@ -1,0 +1,32 @@
+Entrada (CC)
+Potência máxima CC 36000 W
+Tensão máxima CC 1100 V
+Faixa de tensão MPPT 200 - 850V
+Máxima corrente de entrada / por MPPT 28,5A
+Tensão de desligamento / Tensão de partida 350V
+Número MPPT / Strings por MPPT 2 / 3
+
+Saída (CA)
+Potência nominal CA 30000W
+Potência aparente máxima CA 30000 VA
+Tensão nominal CA 220 V 
+Faixa de tensão de operação de fase 101 V - 140 V 
+Frequencia de rede CA 60 Hz
+Corrente máxima de saída 78,8 A
+Fator de potência 0,8...1...0,8
+Harmônicas <3%
+
+Eficiência
+Máxima eficiência 97,0%
+Euro eficiência 96,5%
+MPPT eficiência > 99,5%
+  	 
+Dados gerais
+Dimensões A/B/C 630/700/357mm
+Peso 63 kg
+Temperatura de operação -25ºC ... +60ºC
+Grau de proteção (de acordo com IEC 60529) IP65
+Consumo interno (noite) < 1 W
+Topologia Sem transformador
+Tipo de resfriamento Ventilador
+Ruído (típico <30 dB

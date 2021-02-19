@@ -1,0 +1,40 @@
+DADOS DE ENTRADA
+Max. corrente de entrada (Idc max1 / Idc max2) 18.0 A / 18.0 A
+Max. conjunto corrente curto-circuito (MPP1 /MPP2) 27.0 A / 27.0 A
+Min. tensão de entrada (Udc min) 80 V
+Feed-in tensão de entrada (Udc start) 80 V
+Tensão nominal de entrada (Udc,r) 710 V
+Max. tensão de entrada (Udc max) 1,000 V
+Faixa de tensão MPP (Umpp min - Umpp max) 270 - 800 V
+Numeros de rastreadores MPP 2
+Numero de conexões CC 2 + 2
+
+DADOS DE SAÍDA
+Tensão nominal de saída (Pac,r) 8,200 W
+Max.potência de saida 8,200 VA
+Max. corrente de saída (Iac max) 35.7 A
+Conexão a rede (faixa de tensão) 1 ~ NPE 220 V / 230 V (180 V - 270 V)
+Frequencia 50 Hz / 60 Hz (45 - 65 Hz)
+Distorção harmônica total < 5 %
+Fator de potência (cos fac,r) 0.85 - 1 ind. / cap.
+
+DADOS GERAIS
+Dimensões (height x width x depth) 645 x 431 x 204 mm
+Peso 21.5 kg
+Grau de potreção IP 65
+Classe de proteção 1
+Categoria de sobrecarga(CC/CA) 1) 2 / 3
+Consumo noturno < 1 W
+Design do inversor Transformerless
+Resfriamento Regulated air cooling
+Instalação Indoor and outdoor installation
+Faixa de temperatura ambiente -40 - +55 °C
+Umidade relativa permitida 0 - 100 %
+Max. altitude 4,000 m
+Tecnologia de conexão 2x DC+1, 2x DC+2 and 4x DC- parafusos terminais 2.5 - 16 mm²
+Tecnologia de conexão rede 3-pin CA de parafusos terminais 2,5 a 16 mm²)
+Certficados DIN V VDE 0126-1-1/A1, IEC 62109-1/-2, IEC 62116, IEC 61727, AS 3100, AS 4777-2, AS 4777-3, G83/2, G59/3, CEI 0-21, ABNT NR 16149
+
+DISPOSITIVOS DE PROTEÇÃO
+Medição de isolamento CC: Sim
+Comportamento de sobrecarga Mudança do ponto de operação, limitação da produção Disjuntor CC: Sim

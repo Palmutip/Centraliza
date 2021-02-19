@@ -1,0 +1,48 @@
+DADOS DE ENTRADA
+Máx. corrente de entrada 33.0 A / 27.0 A
+Corrente Máxima de Currto Circuito 49.5 A / 40.5 A
+Tensão Minima de entrada 200 V
+Feed-em tensão inicial 200 V
+Tensão nominal de entrada 600 V
+Tensão Maxima de entrada (UDC max) 1000 V
+MPP voltage range (U mpp min - U mpp max ) 370 - 800V
+Numero de rastreadores MPP - 2
+Número de ligações CC 3 + 3
+
+DADOS DE SAÍDA
+Saída Nominal 15.000 W
+Potência de saída máx. 15.000 VA
+Corrente de saídamax. 32A
+Grid de conexão 3-NPE 400 V / 230 V or 3~NPE 380 V / 220 V
+Tensão de saída min. 150 V
+Tensão de saída max 275 V
+Frequencia 50/60 Hz
+Faixa de frequencia 45 - 65 Hz
+Fator de distorção < 2%
+Fator de Potência 0 - 1 ind. / cap.
+
+DADOS GERAL:
+Dimensões (altura x largura x profundidade) 725 x 510 x 225 mm
+Peso 43.4 Kg
+Grau de Proteção IP 66
+Classe de Proteção 1
+Categoria de sobretensão (DC / AC) 2 / 3
+Consuno Noturno < 1 W
+Conceito retificador - Sem Transformador
+Resfriamento Refrigeração de ar controlado
+Instalação Montagem interna e externa
+Faixa de temperatura ambiente -25°C to +60°C
+Umidade relativa permitida 0 % a 100 %
+Tecnologia de conexão de rede: 6x DC+ und 6x DC- screw terminals 2.5 - 16 mm
+Principaltecnologia de conexão: 5-pole AC screw terminals 2.5 - 16 mm
+Certificados e compliance para modelo básico: VDE 0126-1-1/A1, IEC 62109-1/-2, IEC 62116, IEC 61727, CER06-190, G83/2, VDE AR-N 4105, UNE 206007-1, SI 4777, CEI 0-21, ABNT NR 16149
+
+EFICIÊNCIA:
+Max. Eficiência: 98,0%
+Eficiencia Europeia (?EU) : 97,7%
+MPP adaptação eficiente: > 99.9 %
+
+DISPOSITIVO DE PROTEÇÃO
+Medição de isolamento CC: sim
+Comportamento de sobrecarga: Mudança do ponto de operação, limitação da produção
+Disjuntor CC: sim

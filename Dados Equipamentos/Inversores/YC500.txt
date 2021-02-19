@@ -1,0 +1,31 @@
+Dados de Entrada (CC)
+Faixa de tensão de MPPT 22V-45V
+Faixa de tensão de Operação 16V-52V
+Máxima tensão de entrada 55V
+Tensão de ligamento 22V
+Máxima corrente de entrada 12Ax2
+
+Dados de Saída(CA)
+Potência de saída Nominal CA 500W 
+Tensão de saída Nominal 220V / 127V
+Corrente de Saída Nominal 2.27A / 3.94V
+Faixa de Tensão de Saída Padrão 176V-242V / 101.6V-139.7V
+Faixa de Tensão de Saída Extendida 150V-298V / 82V-155V
+Saída de Frequência Nominal 60Hz
+Faixa de Frequência de Saída Padrão 57.5Hz-62Hz
+Faixa de Frequência de Saída Extendida 55.1Hz -64.9Hz
+Fator de Potência > 0.99
+Distorção Harmônica Total < 3%
+
+Eficiência
+Eficiência Pico 95.5% 
+Consumo de Energia à Noite 120mW
+
+Dados Mecânicos
+Faixa de Temperatura Ambiente de Operação -40°C a +65°C
+Faixa de Temperatura de Armazenamento -40°C a +85°C
+Dimensões (Lar x Alt x Esp) 221mm × 167mm× 29mm
+Peso 2.5kg
+Cabo CA 25A
+Classificação IP67
+Resfriamento Ventilação natual–Sem ventiladores

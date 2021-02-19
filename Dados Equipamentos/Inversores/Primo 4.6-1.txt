@@ -1,0 +1,52 @@
+DADOS DE ENTRADA
+Quantidade de MPP Tracker: 2,0
+Corrente máx. de entrada (Icc máx): 12 / 12 A
+Corrente máx. de curto-circuito do campo do módulo: 18 / 18 A
+Faixa de tensão de entrada CC (Ucc mín - Ucc máx): 80 - 1000 V
+Alimentação de tensão inicial (Ucc inicial): 80,0 V
+Tensão nominal de entrada (Ucc,r): 710,0 V
+Faixa de tensão MPP (Umpp mín - Umpp máx): 210 - 800 V
+Faixa de tensão MPP utilizável:	80 - 800 V
+Quantidade de conexões CC: 2 + 2
+Potência máxima do gerador fotovoltaico (Pcc máx): 6,0 kWpeak
+
+DADOS DE SAÍDA
+Potência nominal CA (Pca,r): 4000,0 W
+Potência máx. de saída (Pca máx): 4000,0 VA
+Potência máxima de saída (Ica nom): 17,4 A
+Acoplamento à rede (Uca,r): 1~ NPE 220/230 V
+Faixa de tensão CA (Umín - Umáx): 180 - 270 V
+Frequência (fr): 50 / 60 Hz
+Faixa de frequência (fmín - fmáx): 45 - 65 Hz
+Fator de distorção: < 5 % 5="" %="">
+Fator de potência (cos φca,r): 0,85 - 1 ind./cap.
+
+DADOS GERAIS
+Dimensão (altura): 645,0 mm
+Dimensão (largura): 431,0 mm
+Dimensão (profundidade): 204,0 mm
+Peso: 21,5 kg
+Grau de proteção: IP 65
+Classe de proteção: 1,0
+Categoria de sobretensão (CC/CA) 1): 2 / 3
+Consumo noturno: < 1 w 1="">
+Conceito de inversor: Sem transformador
+Refrigeração: Refrigeração controlada
+Montagem: Montagem interna e externa
+Faixa da temperatura ambiente: -40°C - +55°C
+Umidade do ar admissível: 0 - 100 %
+Altura máx. acima do nível do mar 2): 4.000 m
+Tecnologia de conexão CC: 4x bornes aparafusados CC+ e 4x bornes aparafusados CC- 2,5 - 16 mm²
+Tecnologia de conexão CA​: Bornes aparafusados CA de 3 polos 2,5 - 16 mm²
+Certificados e cumprimento de normas: DIN V VDE 0126-1-1/A1, IEC 62109-1/-2, IEC 62116, IEC 61727, AS 4777-2, AS 4777-3, G83/2, G59/3, CEI 0-21, VDE AR N 4105
+
+GRAU DE EFICIÊNCIA
+Grau de eficiência máx. (FV - rede de energia): 98,1 %
+Europ. Grau de eficiência (ηEU): 97,0 %
+Grau de eficiência de adaptação MPP: > 99,9 %
+
+DISPOSITIVOS DE PROTEÇÃO
+Medição de isolamento CC: Sim
+Comportamento de sobrecarga: Deslocamento do ponto operacional, limitação da potência
+Disjuntor CC: Sim
+Proteção contra inversões de polaridade: Sim 

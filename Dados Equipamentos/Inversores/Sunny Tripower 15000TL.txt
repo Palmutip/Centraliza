@@ -1,0 +1,28 @@
+Entrada (CC)
+Máxima potência do gerador fotovoltaico 27.000Wp
+Potência atribuída CC 15330W
+Tensão máxima de entrada 1000V
+Intervalo de tensão MPP 240V a 800V
+Tensão de entrada inicial 188 V
+Corrente máxima de entrada 33 A por Mppt
+Número de entradas Mppt 2
+Número de strings por Mppt 3
+
+Saída (CA)
+Potência atribuída 15.000W
+Potência aparente CA máx. 15.000VA
+Tensão nominal CA 3-NPE 380V (220V+220V+220V+N)
+Intervalo de tensão CA 180V a 280V
+Frequência de rede CA 60Hz (54Hz a 65Hz)
+Corrente máxima de saída 29A
+THD < 3%
+
+Rendimento
+Rendimento máximo 98,4% 
+
+Dados gerais
+Temperatura de operação -25°C a +60°C
+Emissões sonoras, típicas 51dBa
+Autoconsumo (noite) 1 W
+Topologia sem transformador
+Refrigeração OptiCool

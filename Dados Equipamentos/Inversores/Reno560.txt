@@ -1,0 +1,28 @@
+Entrada (CC)
+Potência máxima CC: 410 W*2
+Tensão máxima CC: 54 V
+Tensão de partida: 24 V
+Faixa de tensão MPPT: 24~45 V
+Faixa de tensão de operação: 18~54 V
+Máxima corrente CC de curto-circuito: 15 A
+Corrente máxima de entrada: 12 A*2
+ 
+Saída (CA)
+Corrente máxima de saída: 2,55 A
+Potência nomainal de saída: 560 W
+Faixa Tensão: 176 ~ 242 V
+Frequência nominal: 60 Hz
+Fator de potência: >0.99
+Distorção harmônica total: <3 %
+Unidades máximas por barramento: 10
+
+Eficiência
+Eficiência máxima do inversor: 95.8%
+EURO eficiência: 95.1% (de acordo com EN50530) 
+Consumo de energia: 100mW
+
+Dados Gerais
+Grau de proteção: IP67
+Temperatura da Operação: -40ºC ~+ 65ºC
+Dimensões: 248mm*236mm*27,5mm (sem suporte)
+Peso: 2.8kg

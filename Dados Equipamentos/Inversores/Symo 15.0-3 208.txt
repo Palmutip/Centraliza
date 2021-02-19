@@ -1,0 +1,32 @@
+DADOS DE ENTRADA
+Potência PV recomendada (kWp) 12.0 - 19.5
+Máx. corrente de entrada (Idc):50.0 A
+Máx. corrente do conjunto curto circuito (1.5 * Idcmax) 75.0 A
+Faixa de tensão da operação 350 - 800 V
+Máx. tensão de entrada - 1000 V
+Tensão nominal de entrada 325 V
+MPP- Alcance de voltagem 350 - 800 V
+Número deMPPT1
+
+DADOS DE SAÍDA
+Máx. potência de saída 15000 VA
+Máx. corrente de saída 41.6 A
+Conexão Grid (U ac,r ) 3-NPE 208~240V (TRIFASICO 220V)
+Máx. eficiência 97.3 %
+CEC eficiência 96.5 %
+Frequencia 60 HZ
+Distorção Harmônica Total < 3.5 %
+Fator de Potência 0-1 ind./cap.
+
+DADOS GERAIS
+Dimensões (Peso):20.1 x 28.5 x 8.9 inches
+Grau de Proteção NEMA 4X
+Consumo noturno < 1.0 W
+Design do inversor Sem transformador
+Resfriamento Refrigeração de ar condicionado
+Instalação Montagem interna e externa
+Faixa de temperatura ambiente -40 - 140º F
+Umidade relativa permitida 0 - 100 % (non condensing)
+Terminais de conexão DC 6x DC+ and 6x DC- screw terminals for copper (solid / stranded / line stranded) or aluminum (solid / stranded)
+Terminais de conexão AC Screw terminals 14-6 AWG
+Certificados de conformidade:UL 1741-2010, UL 1998 (for functions: AFCI, GFDI and isolation monitoring), IEEE 1547-2003, IEEE 1547.1-2008,ANSI/IEEE C62.41, FCC Part 15 A & B, NEC Article 690, C22. 2 No. 107.1-01(September 2011), UL 1699B Issue 2-2013, CSA TIL M-07 Issue 1-2013

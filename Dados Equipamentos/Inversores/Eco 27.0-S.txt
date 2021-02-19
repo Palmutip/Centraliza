@@ -1,0 +1,42 @@
+DADOS DE ENTRADA
+Max. corrente de entrada : 47.7 A
+Max. corrente do conjunto curto-circuito 71.6 A
+Min. tensão de entrada 580 V
+Feed-em tensão inicial 650 V
+Tensão nominal de entrada 580 V
+Max. tensão de entrada 1,000 V
+MPP voltage range 580 - 850 V
+Numero de rastreadores MPP - 1
+Numeros de ligações CC - 6
+
+DADOS DE SAÍDA
+Saídanominal AC : 27,000 W
+Max. potência de saída 27,000 VA
+Max. corrente de saida 39.0 A
+Grid conexão 3~NPE 400 V / 230 V (+20 % / - 30 %
+Tensão de saída : 50 Hz / 60 HZ ( 45 - 65 Hz)
+Fator de distorção < 2 %
+Fator de potencia 0 - 1 ind. / cap.
+
+DADOS GERAIS
+Dimensões (altura x largura x profundidade) 725 x 510 x 225 mm
+Peso: 35.7 kgs
+Grau de Proteção IP 66
+Classe de Proteção 1
+Categoria de sobretensão (DC / AC) 2 / 3
+Consuno Noturno Consuno Noturno < 1 W
+Conceito retificador Transformador
+Resfriamento Refrigeração de ar controlado
+Instalação Montagem interna e externa
+Faixa de temperatura ambiente -25 - +60 °C
+Umidade relativa permitida 0 - 100 %
+Tecnologia de conexão de rede 6x DC+ and 6x DC- screw terminals 2.5 - 16 mm²
+Principal tecnologia de conexão 5-pole AC screw terminals 2.5 - 16 mm 2
+Certificados e compliance para modelo básico
+ÖVE / ÖNORM E 8001-4-712, DIN V VDE 0126-1-1/A1, VDE AR N 4105, IEC 62109-1/-2, IEC 62116,IEC 61727, AS 3100, AS 4777-2,AS 4777-3, CER 06-190, G83/2, G59/3, UNE 206007-1, SI 4777, CEI 0-16, CEI 0-21
+
+DISPOSITIVO DE PROTEÇÃO
+Medição de isolamento CC Sim
+Comportamento de sobrecarga Mudança de ponto de operação, limitação de potência
+Disjuntor CC Sim
+Porta-fusíveis de suporte integrado Sim (Fusível não incluso) 

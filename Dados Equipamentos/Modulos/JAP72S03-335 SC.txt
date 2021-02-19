@@ -1,0 +1,23 @@
+Dados elétricos
+Potência no ponto máximo de potência - 335W
+Tensão no ponto máximo de potência - 37,99V
+Corrente no ponto máximo de potência - 8,82A
+Tensão em Circuito Aberto - 45,8V
+Corrente de Curto Circuito - 9,3A
+Eficiência = 16,9%
+Tolerância de potencias +1,5%
+
+Características de temperatura
+Coeficiente de temperatura (Pmax) -0,37% / °C
+Coeficiente de temperatura (Voc) -0,3 % / °C
+Coeficiente de temperatura (Isc) 0,054 % / °C
+Temperatura nominal da célula (NOCT) 41±3°C
+Tensão maxima do sistema 1500VDC
+Fusivel maximo 30A
+
+Dados mecânicos
+Tensão Máxima do Sistema 1500V
+Corrente Inversa Máxima 30A
+Formato 2000 mm × 991 mm × 40 mm
+Peso 22,5 kg
+Célula 6 × 24 144 meia células fotovoltaicas policristalinas

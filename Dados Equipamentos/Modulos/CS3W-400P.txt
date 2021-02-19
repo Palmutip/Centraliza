@@ -1,0 +1,22 @@
+ados gerais
+Fabricante Canadian Solar Inc.
+Tipo de célula Policristalino
+Número de células	144
+Tipo de conexão mc4
+Comprimento 2.132 M
+Largura 1.048 M
+Altura 0.03 M
+
+Dados do STC
+Potência 400 W
+Tensão de Operação (Vmp) 38,7 V
+Corrente de Operação (Imp) 10,34 A
+Tensão de Circuito Aberto (Voc) 47,2 V
+Corrente de Curto Circuito (Isc) 10,9 A
+Eficiência 0,179%
+
+Temperaturas
+Temperatura Nominal de Operação da Célula (NOCT) 41ºC
+Coeficiente de Temperatura (Pmax) -0,37% / ºC
+Coeficiente de Temperatura (Voc) -0,29% / ºC
+Coeficiente de Temperatura (Isc) 0,05% / ºC

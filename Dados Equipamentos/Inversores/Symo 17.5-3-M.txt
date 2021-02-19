@@ -1,0 +1,52 @@
+DADOS DE ENTRADA
+Quantidade de MPP Tracker: 2,0
+Corrente máx. de entrada (Icc máx): 33,0 / 27,0 A
+Corrente máx. de curto-circuito do campo do módulo: 49,5 / 40,5 A
+Faixa de tensão de entrada CC (Ucc mín - Ucc máx): 200 - 1000 V
+Alimentação de tensão inicial (Ucc inicial): 200,0 V
+Tensão nominal de entrada (Ucc,r): 600,0 V
+Faixa de tensão MPP (Umpp mín - Umpp máx): 370 - 800 V
+Faixa de tensão MPP utilizável: 200 - 800 V
+Quantidade de conexões CC: 3 + 3
+Potência máxima do gerador fotovoltaico (Pcc máx): 26,3 kWpeak
+
+DADOS DE SAÍDA
+Potência nominal CA (Pca,r): 17,5 kW
+Potência máx. de saída (Pca máx): 17,5 kVA
+Potência máxima de saída (Ica nom): 25,3 A
+Acoplamento à rede (Uca,r): 3~ NPE 400/230, 3~ NPE 380/220 V
+Faixa de tensão CA (Umín - Umáx): 150 - 280 V
+Frequência (fr): 50 / 60 Hz
+Faixa de frequência (fmín - fmáx): 45 - 65 Hz
+Fator de distorção: 1,5 %
+Fator de potência (cos φca,r): 0 - 1 ind./cap.
+
+DADOS GERAIS
+Dimensão (altura): 725,0 mm
+Dimensão (largura): 510,0 mm
+Dimensão (profundidade): 225,0 mm
+Peso: 43,4 kg
+Grau de proteção: IP 66
+Classe de proteção: 1,0
+Categoria de sobretensão (CC/CA) 1): 2 / 3
+Consumo noturno: < 1 w 1="">
+Conceito de inversor: Sem transformador
+Refrigeração: Refrigeração controlada
+Montagem: Montagem interna e externa
+Faixa da temperatura ambiente: -40°C - +60°C
+Umidade do ar admissível: 0 - 100 %
+Altura máx. acima do nível do mar 2): 2.000 m / 3.400 m
+Tecnologia de conexão CC: 6x bornes aparafusados CC+ e 6x bornes aparafusados CC- 2,5 - 16 mm²
+Tecnologia de conexão CA​: Bornes aparafusados CA de 5 polos 2,5 - 16 mm²
+Certificados e cumprimento de normas: ÖVE / ÖNORM E 8001-4-712, DIN V VDE 0126-1-1/A1, VDE AR N 4105, IEC 62109-1/-2, IEC 62116, IEC 61727, AS 3100, AS 4777-2, AS 4777-3, CER 06-190, G83/2, UNE 206007-1, SI 4777, CEI 0-16, CEI 0-21, NRS 097
+
+GRAU DE EFICIÊNCIA
+Grau de eficiência máx. (FV - rede de energia): 98,1 %
+Europ. Grau de eficiência (ηEU): 97,8 %
+Grau de eficiência de adaptação MPP: > 99,9 %
+
+DISPOSITIVOS DE PROTEÇÃO
+Medição de isolamento CC: Sim
+Comportamento de sobrecarga: Deslocamento do ponto operacional, limitação da potência
+Disjuntor CC: Sim
+Proteção contra inversões de polaridade: Sim 

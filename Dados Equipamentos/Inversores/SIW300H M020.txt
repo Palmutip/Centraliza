@@ -1,0 +1,18 @@
+Dados de Entrada (CC):
+Potência máxima nominal do Inversor Solar: 2KW
+Faixa de tensão de entrada do inversor solar: 90V - 600V
+Tensão máx. de entrada do inversor solar: 500V
+Corrente máxima: 15A
+Tensão mínima de partida do inversor solar: 120V
+Quantidade de Rastreadores de MPP: 2
+
+Dados de Saída (CA) 
+Potência de saída do inversor solar: 2KW
+Conexão de rede Fases: 1 ~ NPE 220V / 230V (180V - 242V)
+Tensão nominal do inversor solar: 220V
+Corrente máx. de saída do inversor solar: 10A
+
+Dados Gerais
+Tamanho do Inversor Solar: 375 x 375 x 161,5 mm
+Peso do Inversor Solar: 10,6Kg
+Potência de Saída do Inversor Solar: 2KW

@@ -1,0 +1,22 @@
+Dados elétricos
+Potência no ponto máximo de potência - 365W
+Corrente de Curto Circuito - 9,75A
+Tensão em Circuito Aberto - 48,16V
+Corrente no ponto máximo de potência - 9,27A
+Tensão no ponto máximo de potência - 39,38V
+Eficiência =18,8%
+Tolerância de potências +5W
+Desempenho mínimo sob condições de teste padrão STC (1000 W/m², 25 °C, espectro AM 1,5 G)
+
+Características de temperatura
+Coeficiente de temperatura (Pmax) -0.39% / °C
+Coeficiente de temperatura (Voc) -0.28 % / °C
+Coeficiente de temperatura (Isc) 0.04 % / °C
+Temperatura nominal da célula (NOCT) 45±3°C
+Temperatura Admissível para o Módulo em Operação Contínua -40 °C até +85 °C
+
+Dados mecânicos
+Tensão Máxima do Sistema 1500V
+Corrente Inversa Máxima 20A
+Formato 1960 mm × 991 mm × 35 mm (estrutura incluída)
+Peso 22,5 kg ± 5 %

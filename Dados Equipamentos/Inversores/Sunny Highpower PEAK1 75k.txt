@@ -1,0 +1,29 @@
+Entrada (CC)
+Máxima potência do gerador fotovoltaico 112.500Wp
+Potencia atribuída 76.500W
+Tensão máxima de entrada 1000V
+Intervalo de tensão MPP 570V a 800V
+Tensão de entrada inicial 565V
+Corrente máxima de entrada 140A
+Corrente máxima de curto-circuito 210A
+Número de entradas Mppt 1
+
+Saída (CA)
+Potência atribuída 75.000W
+Potência aparente máx. 75.000VA
+Potencia reativa máxima 75.000var
+Tensão nominal 3-NPE 400V (230V+230V+230V+N)
+Intervalo de tensão 360V a 530V
+Frequência de rede 60Hz (54Hz a 65Hz)
+Corrente máxima de saída 109A
+THD < 1%
+
+Rendimento
+Rendimento máximo 98,8% 
+
+Dados gerais
+Temperatura de operação -25°C a +60°C
+Emissões sonoras, típicas <58dBa
+Autoconsumo (noite) <3 W
+Topologia sem transformador
+Refrigeração ativo

@@ -1,0 +1,14 @@
+Dados elétricos
+Potência nominal máx. (Pmáx) 340W
+Tensão operacional ideal (Vmp) 38,7V
+Corrente operacional ideal (Imp) 8,8A
+Tensão de circuito aberto (Voc) 46,3V
+Corrente de curto circuito (Isc) 9,4A
+Eficiência do módulo 17,1%
+Temperatura operacional -40 °C ~ +85°C
+Tensão máxima do sistema 1.500V
+
+Coeficientes de temperatura
+Coeficiente de temperatura da corrente de curto-circuito -0,32%/°C
+Coeficiente de temperatura da tensão de circuito aberto +0,05%/°C
+Coeficiente de temperatura de potência de pico -0,39%/°C

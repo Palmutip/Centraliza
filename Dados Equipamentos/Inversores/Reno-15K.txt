@@ -1,0 +1,32 @@
+Entrada (CC)
+Potência máxima CC: 18 kW
+Tensão máxima CC: 1000 V
+Faixa de tensão MPPT: 160 - 850 V
+Máxima corrente de entrada por MPPT: 22 A
+Tensão de partida: 180 V
+Número MPPT/Strings por MPPT: 2/2
+
+Saída (CA)
+Potência nominal CA: 15 kW
+Tensão nominal CA: 380 V
+Potência aparente CA: 16,5 kVA
+Potência máxima CA: 16,5 kW
+Faixa de tensão de operação por fase: 176V - 242V
+Frequência de rede CA: 60 Hz
+Corrente máxima de saída: 21,7 A
+Fator de potência (cos), ajustável: 0,8...1...0,8
+Harmônicas: <1,5%
+
+Eficiência
+Máxima eficiência: 98,7 %
+Euro eficiência: 98,1 %
+MPPT eficiência: 99,5 %
+
+Dados Gerais
+Dimensões: 310/ 563/ 219 (mm)
+Peso: 18,9 kg
+Temperatura ambiente: -25ºC ~60ºC
+Grau de proteção: IP65
+Topologia: Sem transformador 
+Tipo de resfriamento: Ventilador
+Ruído: <30 dBA

@@ -1,0 +1,28 @@
+Entrada (CC)
+Máxima potência do gerador fotovoltaico 75.000Wp
+Tensão máxima de entrada 1000V
+Intervalo de tensão MPP 500V a 800V
+Tensão de entrada inicial 188 V
+Corrente máxima de entrada20 A por Mppt
+Corrente máxima de curto-circuito por Mppt 30A
+Número de entradas Mppt 6
+Número de strings por Mppt 2
+
+Saída (CA)
+Potência atribuída 50.000W
+Potência aparente máx. 50.000VA
+Tensão nominal 3-NPE 380V (220V+220V+220V+N)
+Intervalo de tensão 202V a 305V
+Frequência de rede 60Hz (54Hz a 65Hz)
+Corrente máxima de saída 72,5A
+THD < 3%
+
+Rendimento
+Rendimento máximo 98,1%
+
+Dados gerais
+Temperatura de operação -25°C a +60°C
+Emissões sonoras, típicas <65dBa
+Autoconsumo (noite) 4,8 W
+Topologia sem transformador
+Refrigeração OptiCool

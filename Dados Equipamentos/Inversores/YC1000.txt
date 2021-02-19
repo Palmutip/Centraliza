@@ -1,0 +1,35 @@
+Dados de Entrada(CC)
+Faixa de Tensão MPPT 16V-55V
+Faixa de Tensão de Operação 16V-55V
+Tensão Máxima de Entrada 60V
+Tensão de Partida 22V
+Corrente Máxima de Entrada 14.8A×4
+
+Dados de Saída(CA)
+Trifásico 127V/220V
+Potência Contínua Máxima de Saída 900W
+Potência de Pico de Saída 1000W 
+Corrente Nominal de Saída 2.36A×3
+Tensão Nominal de Saída 127V×3
+Faixa Padrão de Tensão de Saída 101.6V-139.7V
+Faixa Estendida de Tensão de Saída 82V-152V
+Frequência Nominal de Saída 60Hz
+Faixa Padrão de Frequência de Saída 57.5Hz-62Hz
+Faixa Estendida de Frequência de Saída 55.1Hz-64.9Hz
+Fator de Potência > 0.99
+Distorção Harmônica Total < 3%
+
+Eficiência
+Eficiência de Pico 95%
+CEC Eficiência ponderada 94.5%
+Eficiência Nominal MPPT 99.9%
+Consumo de Potência Noturna 300mW
+
+Dados Mecânicos
+Faixa de Temperatura de Operação Ambiente -40°C até +65°C
+Faixa deTemperatura de Armazenamento -40°C até +85°
+CDimensões(LxAxP) 259mm×242mm×36mm
+Corrente CA Máxima do Barramento 20A
+Peso 3.8kg
+Classificação do Gabinete IP67
+Ventilação Convecção natural–Sem Ventilador

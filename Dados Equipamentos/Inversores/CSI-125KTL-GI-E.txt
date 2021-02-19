@@ -1,0 +1,36 @@
+ENTRADA CC
+Máx. Potência PV 187.5 kW
+Máx. Tensão de Entrada CC 1500V 
+Faixa de Operação da Tensão de Entrada CC 860-1450V 
+Tensão de Início CC 900V 
+Número de MPPT 1 
+Faixa de Tensão 860-1450
+Corrente Operacional (Imp) 150 A
+Corrente de Entrada Máx. (Isc) 300 A
+Número de Entradas CC 20
+Tipo de Desconexão CC Chave de carga nominal CC 
+
+SAÍDA CA 
+Saída de Potência Nominal 125 kW 
+Saída de Potência CA Máx. 125 kW 
+Tensão de Saída Nominal 600 V AC 
+Faixa de Tensão de Saída* 528-660 V AC 
+Tipo de Conexão na Rede 3 NPE 
+Corrente de Saída Nominal CA @480 Vac 120 A 
+Classificação de Frequência de Saída 60 Hz 
+Faixa de Frequência de Saída* 55-65 Hz 
+Fator de Potência 1 default (±0.8 ajustável) 
+Corrente THD < 3 % SISTEMA 
+Topologia sem transformador 
+
+EFICIÊNCIA
+Eficiência Max. 98.8 % 
+Eficiência IEC 98.5 % 
+Consumo Noturno < 2 W 
+
+DADOS GERAIS
+AMBIENTE Grau de Proteção IP65 
+Ventilação Arrefecimento Redundante Inteligente
+Faixa de Temperatura Operacional -25 ° C a +60 ° C 
+Faixa de Temperatura de Armazenamento -40 F a + 158 ° F / -40 ° C a +70 ° C 
+Umidade Operacional 0 - 100 % condensação

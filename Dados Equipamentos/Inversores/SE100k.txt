@@ -1,0 +1,22 @@
+ENTRADA CC
+Máxima Potência-Pico (STC): conjunto/unidade 135000 / 45000W
+Transformer-less, Não Aterrado Sim
+Máxima Tensão de Entrada 1000Vcc
+Tensão Nominal de Entrada 850Vcc 
+Máxima Corrente de Entrada 120Acc
+Proteção contra Inversão de Polaridade Sim
+Detecção de Falha de Isolamento à Terra 350kΩ Sensibilidade por Unidade 
+Máxima Eficiência do Inversor 98.3%
+Eficiência Euro (média) 98%
+Consumo Noturno < 12W
+
+SAÍDA CA
+Potência Nominal 100000VA
+Potência Máxima 100000VA
+Tensão Nominal (FF/FN) 480/277Vca
+Faixa de Tensão (FF/FN) 384 - 552 / 244-305Vca
+Frequência Nominal 60 ± 5Hz
+Máxima Corrente Injetada (por fase) @ Vca,nominal 120A
+Redes Trifásicas Compatíveis 3F/N/PE (estrela com neutro), 3/PE (para rede 220/127 Vca) 
+Máxima Corrente Residual Injetada 250 por unidade
+Monitoramento de Rede, Proteção Anti-Ilhamento, Fator de Potência Configurável, Limites Configurárveis por País Sim

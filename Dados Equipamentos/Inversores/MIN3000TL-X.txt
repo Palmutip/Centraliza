@@ -1,0 +1,15 @@
+Dados de entrada:
+Tensão máx. de entrada 500 VCC
+Área de tensão MPP 80~500 VCC
+Tensão nominal de entrada 360 VCC
+Corrente DC por MPPT 12.5A / 12.5A
+Rastreadores de MPP 2
+Arranjo por MPPT 1
+
+Dados de saída
+Potência nominal de saída 3KW
+Tensão nominal 230V (160V-300V)
+Frequência nominal 50, 60Hz
+Faixa de frequência 57~63
+Corrente máx. de saída 13.6A
+Eficiência máxima 98.2%

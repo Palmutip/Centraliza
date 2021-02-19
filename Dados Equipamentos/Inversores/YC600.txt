@@ -1,0 +1,33 @@
+Dados de Entrada (CC)
+Faixa recomendada de potência do módulo fotovoltaico (STC) 250Wp-440Wp
+Faixa de Tensão do MPPT 22V-48V
+Faixa de Tensão de Operação 16V-55V
+Tensão Máxima de Entrada 60V
+Corrente Máxima de Entrada 12A x 2
+Corrente de curto-circuito Máxima de Entrada 13.2A
+
+Dados de Saída (CA)
+Máxima Potência Contínua de Saída 550VA
+Máxima Potência de Saída 600VA
+Tensão Nominal de Saída 120V/95-155V
+Faixa de Tensão Ajustável de Saída 90-160V
+Corrente Nominal de Saída 4.57A
+Número Máximo por Segmento 4 (8 módulos fotovoltaicos)
+Frequência Nominal de Saída 60Hz/57.5Hz-62Hz
+Faixa de Frequência Ajustável de Saída 55.1-64.9Hz
+Fator de Potência > 0.99
+Distorção Harmônica Total < 3%
+
+Eficiência
+Eficiência Pico 96.7%
+Eficiência Nominal MTTP 99.5%
+Consumo de Energia Noturno 60mW
+
+Dados Mecânicos
+Faixa de Temperatura Ambiente de Operação -40oF a +149 oF (-40 °C a +65 °C )
+Faixa de Temperatura de Armazenamento -40 oF a +185 oF (-40 °C a +85 °C )
+Dimensões (L x A x P) 10.3” × 7.4” × 1.3” (260mm X 188mm X 31.5mm)
+Peso 5.7lbs(2.6kg)
+Corrente Máxima do Cabo Tronco 20A
+Tipo de Conector Tipo MC4 ou Customizado
+Refrigeração Convecção Natural -Sem Ventoinhas

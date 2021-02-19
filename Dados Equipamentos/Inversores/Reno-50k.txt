@@ -1,0 +1,33 @@
+Entrada (CC)
+Potência máxima CC 55kW
+Tensão máxima CC 1100V
+Faixa de tensão MPPT 200V - 1000V
+Máxima corrente de entrada por MPPT 28,5A
+Tensão de partida 200V
+Número MPPT/Strings por MPPT 4/3
+
+Saída (CA)
+Potência nominal CA 50 kW
+Potência aparente  CA 55 kVA
+Tensão nominal CA 380 V  
+Potência máxima CA 55 kVA
+Faixa de tensão de operação por fase 176 V - 242 V 
+Frequencia de rede CA 60 Hz
+Corrente máxima de saída 83,3 A
+Fator de potência 0.8...1...0.8
+Harmônicas <3%
+
+Eficiência
+Máxima eficiência 98,8%
+Euro eficiência 98,4%
+MPPT eficiência 99,9%
+
+Dados Gerais
+Dimensões A/B/C 630/700/357m
+Peso 63 kg
+Temperatura de operação -25ºC ~60ºC
+Grau de proteção (de acordo com IEC 60529) IP65
+Consumo interno (noite) < 1 W
+Topologia Sem transformador
+Tipo de resfriamento Ventilador
+Ruído (típico <60 dBA

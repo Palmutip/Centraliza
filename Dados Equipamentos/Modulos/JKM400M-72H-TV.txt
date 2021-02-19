@@ -1,0 +1,23 @@
+Dados elétricos
+Potência no ponto máximo de potência - 400W
+Tensão no ponto máximo de potência - 40,01V
+Corrente no ponto máximo de potência - 10,00A
+Tensão em Circuito Aberto - 48,35V
+Corrente de Curto Circuito - 10,32A
+Eficiência = 19,54%
+Tolerância de potencias +3%
+
+Características de temperatura
+Coeficiente de temperatura (Pmax) -0,36% / °C
+Coeficiente de temperatura (Voc) -0,29 % / °C
+Coeficiente de temperatura (Isc) 0,048 % / °C
+Temperatura nominal da célula (NOCT) 45±2°C
+Tensão maxima do sistema 1500VDC
+Fusivel maximo 20A
+
+Dados mecânicos
+Tensão Máxima do Sistema 1500V
+Corrente Inversa Máxima 20A
+Formato 2031 mm × 1008 mm × 40 mm
+Peso 23,3 kg
+Célula 6 × 24 144 meia células fotovoltaicas policristalinas

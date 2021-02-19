@@ -1,0 +1,44 @@
+DADOS DE ENTRADA:
+Fronius Symo 20.0-3-M
+Max. corrente de entrada (Idc max1 / Idc max2) 33.0 A / 27.0 A
+Max. conjunto corrente curto-circuito(MPP1 / MPP2) 49.5 A / 40.5 A
+Min. tensão de entrada (Udc min) 200 V
+Feed-in tensão de entrada (Udc start) 200 V
+Tensão nominal de entrada (Udc,r) 600 V
+Max. tensão de entrada
+(Udc max) 1,000 V
+Faixa de tensão MPP
+(Umpp min - Umpp max) 420 - 800 V
+Numeros de rastreadores MPP 2
+Numero de conexões CC 3 + 3
+
+DADOS DE SAÍDA:
+Tensão nominal de saída (Pac,r) 20,000 W
+Max. potência de saida 20,000 VA
+Max. corrnte de saída (Iac max) 31.9 A
+Conexão a rede (faixa de tensão) 3~NPE 400 V / 230 V ou 3~NPE 380 V / 220 V (+20 % / -30 %)
+Frequencia 50 Hz / 60 Hz (45 - 65 Hz)
+Distorção harmônica total < 2 %
+Fator de potência (cos fac,r) 0 - 1 ind. / cap.
+
+DADOS GERAIS:
+Dimensões 725 x 510 x 225 mm
+Peso 43.4 kg
+Graude potreção IP 66
+Classe de proteção 1
+Categoria de sobrecarga (CC/CA)1) 2/ 3
+Consumo noturno < 1 W
+Design do inversor Sem Transformador
+Resfriamento Refrigeração de ar controlado
+Instalação Montagem interna e externa
+Faixa de temperatura ambiente -25°C - +60°C
+Umidade relativa permitida 0 % - 100 %
+Max. altitude 2000 m / 3400 m (faixa de tensão irrestrita / restrito)
+Tecnologia de conexão 6x DC + e DC-6x terminais de parafuso 2,5 mm ² - 16 mm ²
+Tecnologia de conexão rede 5 pinos terminais de parafuso AC, 2,5 mm ² - 16 mm ²
+Certficados ÖVE / ÖNORM E 8001-4-712, DIN V VDE 0126-1-1/A1, VDE AR N 4105, IEC 62109-1/-2, IEC 62116, IEC 61727, AS 3100, AS 4777-2, AS 4777-3, CER 06-190, G83/2, G59/3, UNE 206007-1, SI 4777, CEI 0-16, CEI 0-21, ABNT NR 16149
+MPP adaptação eficiente > 99.9 %
+
+DISPOSITIVO DE PROTEÇÃO:
+Medição de isolamento CC: Sim
+Comportamento de sobrecarga Mudança do ponto de operação, limitação da produçãoDisjuntor CC: Sim 

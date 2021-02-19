@@ -1,0 +1,25 @@
+Entrada (CC)
+Máxima potência do gerador fotovoltaico 7.500Wp
+Tensão máxima de entrada 600V
+Intervalo de tensão MPP 140V a 500V
+Tensão de entrada inicial 125V
+Corrente máxima de entrada 15A para cada Mppt
+Número de entradas Mppt 2
+
+Saída (CA)
+Potência atribuída 4.000W
+Potência aparente máx. 4.000VA
+Tensão nominal 220V
+Intervalo de tensão 180V a 280V
+Frequência de rede 60Hz
+Corrente máxima de saída 22A
+
+Rendimento
+Rendimento máximo 97% 
+
+Dados gerais
+Temperatura de operação -25°C a +60°C
+Emissões sonoras, típicas <25dBa
+Autoconsumo (noite) 1 W
+Topologia sem transformador
+Refrigeração ativo

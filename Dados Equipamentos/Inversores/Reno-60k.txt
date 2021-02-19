@@ -1,0 +1,33 @@
+Entrada (CC)
+Potência máxima CC 72kW
+Tensão máxima CC 1100V
+Faixa de tensão MPPT 200V-1000V
+Máxima corrente de entrada por MPPT 28,5A
+Tensão de partida 200V
+Número MPPT/Strings por MPPT 4/3
+
+Saída (CA)
+Potência nominal CA 60kW
+Tensão nominal CA 380V
+Potência aparente CA 66kVA
+Potência máxima CA 66kW
+Faixa de tensão de operação por fase 176V - 242V
+Frequência de rede CA 60 Hz
+Corrente máxima de saída 100 A
+Fator de potência (cos), ajustável 0,8...1...0,8
+Harmônicas  <2%
+
+Eficiência
+Máxima eficiência 99%
+Euro eficiência 98,5%
+MPPT eficiência 99,9%
+
+Dados gerais
+Dimensões 630/700/357
+Peso 63kg
+Temperatura ambiente -25ºC ~60ºC
+Grau de proteção IP65
+Consumo interno (noite) < 1 W
+Topologia Sem transformador 
+Tipo de resfriamento Ventilador
+Ruído <60 dBA

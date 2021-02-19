@@ -1,0 +1,19 @@
+Dados de entrada:
+Máx. potência pico STC 2,4KWp
+Tensão máx. de entrada 500 VCC
+Área de tensão MPP 150~450 VCC
+Tensão nominal de entrada 360 VCC
+Corrente DC por MPPT 12A
+Corrente máxima de curto-circuito 15A
+Rastreadores de MPP 1
+
+Dados de saída
+Potência nominal de saída 1,6KW
+Tensão nominal 220, 230, 240 VCA
+Faixa de tensão CA 180V~276
+Frequência nominal 50, 60Hz
+Faixa de frequência 47~55 / 54~66
+Corrente máx. de saída 7,7A
+Eficiência máxima 97.5%
+THDi <3%
+Grau de proteção IP65

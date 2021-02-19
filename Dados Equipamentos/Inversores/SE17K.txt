@@ -1,0 +1,21 @@
+ENTRADA CC
+Máxima Potência-Pico (STC) 13365 @ 220 / 12722950 @ 380 / 220W
+Transformer-less Não aterrado Sim
+Máxima Tensão de Entrada 600 @ 220/127 - 900 @ 380/220Vdc
+Tensão Nominal de Entrada 400 @ 220/127 - 750 @ 380/220Vdc 
+Máxima Corrente de Entrada 23Adc
+Proteção contra Inversão Polaridade Sim
+Detecção de Falha de Isolamento à Terra 700kΩ Sensibilidade
+Máxima Eficiência do Inversor 98%
+Eficiência Máxima Europeia 97.7%
+Consumo de Energia Noturno < 2.5W
+
+SAÍDA CA
+Potência Nominal 9900 @ 220/127 - 17000 @ 380/220VA
+Potência Máxima 9900 @ 220/127 - 17000 @ 380/220VA
+Tensão Nominal (FF/FN) 380 / 220 ; 220 / 127Vac
+Faixa de Tensão (FF/FN)323 - 437 / 187 - 253 ; 187 - 253 / 108 - 146Vac
+Frequência Nominal 60 ± 5Hz
+Máxima Corrente Injetada (por fase) 26A
+Redes Trifásicas Compatíveis 3 / N / PE (WYE com Neutro) V
+Monitoramento de Rede, Proteção anti-Ilhamento, Fator de Potência Configurável, Limites Configuráveis por País Sim

@@ -1,0 +1,31 @@
+DADOS DE ENTRADA
+Máxima Corrente de entrada: 12.0 A / 12.0 A
+Max. conjunto corrente curto-circuito (MPP1 /MPP2) 18.0 A / 18.0 A
+Min. tensão de entrada (Udc min) - 80V
+Feed-in tensão de entrada (Udc start) 80V
+Tensão nominal de entrada (Udc,r) -710V
+Max. tensão de entrada (Udc max) - 1000V
+Faixa de tensão MPP (Umpp min - Umpp max)-240 - 800 V
+Numeros de rastreadores MPP 2
+Numero de conexões CC 2+2
+
+DADOS DE SAIDA
+Tensão nominal de saída: 5000W
+Max.potênciade saida- 5,000 VA
+Max.Corrente de saída: 21,7A
+Conexão a rede (faixa de tensão) 1 ~ NPE 220 V / 230 V (180 V - 270 V)
+Frequencia: 50 Hz / 60 Hz (45 - 65 Hz
+Distorção harmônica total -< 5 %
+Fator de potência (cos fac,r) 0.85 - 1 ind. / cap
+
+Dimensões (L x A x P)mm: (625 x 431 x 204)
+Peso: 21,5Kg
+Grau de Proteção IP 65
+Classe de Proteção 1
+Categoria de sobrecarga( (CC/CA) 2 / 3
+Consumo Noturno < 1 W
+Resfriamento Refrigeração de ar controlado
+Instalação Montagem interna e externa
+Faixa de temperatura ambiente -40°C to +55°C
+Umidade relativa permitida 0 % a 100 %
+Max.altitude: 4,000 m 

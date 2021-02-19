@@ -1,0 +1,28 @@
+Entrada (CC)
+Potência máxima CC: 410 W*2
+Tensão máxima CC: 54 V
+Tensão de partida: 18 V
+Faixa de Tensão MPPT: 24 ~ 45 V
+Máxima corrente de CC de curto-circuito: 15 A
+Corrente máxima de entrada: 12 A*2
+
+Saída (CA)
+Corrente máxima de saída: 5,09 A
+Potência nominal de saída: 560 W
+Faixa de tensão nominal: 127 V
+Faixa de tensão de trabalho: 101 - 140V
+Frequência nominal: 60 Hz
+Fator de potência: >0.99
+Distorção harmônica total: <3%
+Unidades máximas por barramento: 5
+
+Eficiência
+Eficiência máxima do equipamento: 94,5%
+Euro eficiência: 94% 
+Consumo de energia: 100mW
+
+Dados gerais
+Grau de proteção: IP67
+Temperatura de operação: -40°C~+65°C
+Dimensões: 248*236*27,5 mm 
+Peso: 2,8 Kg

@@ -1,0 +1,28 @@
+Dados elétricos
+Potência no ponto máximo de potência - 400W
+Tensão no ponto máximo de potência - 40,3V
+Corrente no ponto máximo de potência - 9,92A
+Tensão em Circuito Aberto - 49,0V
+Corrente de Curto Circuito - 10,45A
+Eficiência = 19,7%
+Tolerância de potencias +5W
+Desempenho mínimo sob condições de teste padrão STC (1000 W/m², 25 °C, espectro AM 1,5 G)
+
+Características de temperatura
+Coeficiente de temperatura (Pmax) -0.37% / °C
+Coeficiente de temperatura (Voc) -0.29 % / °C
+Coeficiente de temperatura (Isc) 0.05 % / °C
+Temperatura nominal da célula (NOCT) 41±3°C
+Temperatura Admissível para o Módulo em Operação Contínua -40 °C até +85 °C
+Tensão maxima do sistema 1500VDC
+Fusivel maximo 20A
+
+Dados mecânicos
+Tensão Máxima do Sistema 1500V
+Corrente Inversa Máxima 20A
+Formato 2024 mm × 1004 mm × 35 mm (incluindo a estrutura)
+Peso 26,4 kg ± 5 %
+Cobertura frontal Vidro temperado 4 mm com tecnologia antirreflexo
+Cobertura traseira Chapa multicamada composta
+Estrutura Alumínio anodizado
+Célula 6 × 24 144 meia células fotovoltaicas monocristalinas

@@ -1,0 +1,36 @@
+ENTRADA CC
+Máx. Potência PV 48 kW (16 kW/MPPT) 
+Máx. Tensão de Entrada CC 1100V 
+Faixa de Operação da Tensão de Entrada CC 200-1000V 
+Tensão de Início CC 200V 
+Número de MPPT 4 
+Faixa de Tensão 454-850V 
+Corrente Operacional (Imp) 88 A (22 A por MPPT) 
+Corrente de Entrada Máx. (Isc) 137.2 A (34.3 A por MPPT) 
+Número de Entradas CC 8 (2 por MPPT) 
+Tipo de Desconexão CC Chave de carga nominal CC 
+
+SAÍDA CA 
+Saída de Potência Nominal 40 kW 
+Saída de Potência CA Máx. 44 kW 
+Tensão de Saída Nominal 380/400 V AC 
+Faixa de Tensão de Saída* 304-460 V AC 
+Tipo de Conexão na Rede 3 NPE 
+Corrente de Saída Nominal CA @480 Vac 60.8 / 58 A 
+Classificação de Frequência de Saída 50/60 Hz 
+Faixa de Frequência de Saída* 47-52/57-62 Hz 
+Fator de Potência 1 default (±0.8 ajustável) 
+Corrente THD < 3 % SISTEMA 
+Topologia sem transformador 
+
+EFICIÊNCIA
+Eficiência Max. 98.8 % 
+Eficiência IEC 98.4 % 
+Consumo Noturno < 1 W 
+
+DADOS GERAIS
+AMBIENTE Grau de Proteção IP65 
+Ventilação Resfriamento por convecção natural 
+Faixa de Temperatura Operacional -25 ° C a +60 ° C 
+Faixa de Temperatura de Armazenamento -40 F a + 158 ° F / -40 ° C a +70 ° C 
+Umidade Operacional 0 - 100 % condensação

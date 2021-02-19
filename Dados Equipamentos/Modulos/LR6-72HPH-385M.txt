@@ -1,0 +1,22 @@
+Dados gerais
+Fabricante LONGi Solar
+Tipo de célula 	Monocrystalline
+Número de células 144
+Tipo de conexão mc4
+Comprimento 1.999 M
+Largura 0.991 M
+Altura 0.035 M
+
+Dados do STC
+Potência 385 W
+Tensão de Operação (Vmp) 40,8 V
+Corrente de Operação (Imp) 9,43 A
+Tensão de Circuito Aberto (Voc) 49,2 V
+Corrente de Curto Circuito (Isc) 10,03 A
+Eficiência 0,195%
+
+Temperaturas
+Temperatura Nominal de Operação da Célula (NOCT) 45ºC
+Coeficiente de Temperatura (Pmax) -0,37% / ºC
+Coeficiente de Temperatura (Voc) -0,286% / ºC
+Coeficiente de Temperatura (Isc) 0,057% / ºC

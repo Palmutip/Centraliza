@@ -1,0 +1,24 @@
+DADOS DE ENTRADA
+Max. Corrente de Entrada 12.0 A x 4
+Tensão de Inicialização 20 V
+Máx. Tensão de Entrada 60 V
+Faixa de Tensão MPPT 22 a 48 V
+Números de Rastreadores MPPT 4
+Número de Conexões CC 4
+Máx. Potência do Gerador FV 1,5 kWp
+
+DADOS DE SAÍDA
+Potência Nominal de Saída 1200 W
+Corrente de Saída 5.45 A
+Conexão à rede 220 V (176 V - 242 V)
+Frequência 60 Hz (57,5 - 62 Hz)
+Fator de Potência > 0.99
+
+Especificações Mecânicas:
+Umidade Permitida 0 a 100%
+Faixa de Temperatura -40ºC a +65ºC
+Instalação Montagem externa
+Design do Inversor Trafos de alta frequência, Isolamento Galvânico
+Grau de Proteção IP67
+Dimensões (mm) 281 x 231 x 41.3
+Peso (kg) 4.5

@@ -1,0 +1,25 @@
+Dados de entrada:
+Tensão máx. de entrada 550 VCC
+Área de tensão MPP 80~550 VCC
+Tensão nominal de entrada 360 VCC
+Corrente DC por MPPT1/MPPT2 - 25A / 1 x 12.5A
+Rastreadores de MPPT 2
+Numeros de arranjos MPPT1 - 2 entradas
+Numero de arranjo MPPT2 - 1 entrada
+
+Dados de saída
+Potência nominal de saída 8KW
+Tensão nominal 220V (180V-280V)
+Frequência nominal 60Hz
+Faixa de frequência 54~65
+Corrente máx. de saída 36.4A
+Eficiência máxima 98.4%
+THDi <3%
+
+Dispositivos de proteção
+- Proteção contra polaridade reversa CC
+- Interruptor CC
+- Proteção de sobretensão CC
+- Proteção de sobrecorrente de saída
+- Monitoramento de falta de terra
+- Monitoramento da rede eletrica

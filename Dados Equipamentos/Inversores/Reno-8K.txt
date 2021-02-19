@@ -1,0 +1,32 @@
+Entrada (CC)
+Potência máxima CC: 11200 W
+Tensão máxima CC: 600 V
+Faixa de tensão MPPT: 100 - 500V
+Máxima corrente de entrada por MPPT: 10A
+Tensão de desligamento / Tensão de partida: 120V
+Número MPPT / Strings por MPPT: 3 / 1
+
+Saída (CA)
+Potência nominal CA: 8000W
+Potência aparente máxima CA: 8800 VA
+Tensão nominal CA: 220 V 
+Faixa de tensão de operação: 176 V - 242 V 
+Frequencia de rede CA: 60 Hz
+Corrente máxima de saída: 36,4 A
+Fator de potência: 0,8...1...0,8
+Harmônicas: <1,5%
+
+Eficiência
+Máxima eficiência: 98,1%
+Euro eficiência: 97,6%
+MPPT eficiência: 99,5%
+
+Dados gerais
+Dimensões A/B/C: 333*573*249 mm
+Peso: 18 kg
+Temperatura de operação: -25ºC ... +60ºC
+Grau de proteção (de acordo com IEC 60529): IP65
+Consumo interno (noite): < 1 W
+Topologia: Sem transformador
+Tipo de resfriamento: Convecção natural
+Ruído (típico): <30 dB 

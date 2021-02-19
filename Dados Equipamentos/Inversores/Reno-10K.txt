@@ -1,0 +1,31 @@
+Entrada (CC)
+Potência Máxima CC: 12kW
+Tensão Máxima CC: 600V
+Faixa de tensão MPPT: 100V - 500V
+Máxima corrente de entrada por MPPT: 10A
+Tensão de partida: 120V
+Número MPPT/String por MPPT: 3/1
+
+Saída (CA)
+Potência nominal CA: 10kW
+Tensão nominal CA: 220V
+Potência aparente CA: 10kVA
+Faixa de tensão de operação por fase: 176V - 242V
+Frequência de rede CA: 60 Hz
+Corrente máxima de saída: 45,5A
+Fator de potências (cos), ajustável : 0,8...1...0,8
+Harmônicas: <1,5%
+
+Eficiência
+Máxima eficiência: 98,1%
+Euro eficiência: 97,6%
+MPPT eficiência: 99,5%
+
+Dados gerais
+Dimenssões: 333/573/249
+Peso: 18kg
+Temperatura ambiente: -25ºC ~60ºC
+Grau de proteção (de acordo com IEC 60529): IP65
+Consumo interno (noite): <1 W
+Topologia: sem transformador 
+Ruído (típico): < 30dBA

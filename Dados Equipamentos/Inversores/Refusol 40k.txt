@@ -1,0 +1,62 @@
+DADOS DE ENTRADA TRIFASICO 380V:
+Potência FV máxima recomendada 60KWp
+Alcance da MPPT 250~900VCC
+Área de tensão MPP 490~850VCC
+Tensão máx. de entrada 1000VCC
+Tensão de despertar 200VCC
+Alimentação de tensão de partida 350VCC
+Corrente CC Operacional máxima 84A
+Corrente máx. de curto-circuito dos módulos solares 160A
+Rastreadores de MPP 1
+Número entradas CC 1 x Plus, 1x Minus
+Terminal de entrada CC
+Conexão de alavanca de joelho Phoenix Contact T-LOX TW50
+Cabos de entrada CC de 10 a 50mm² (alumínio / cobre)
+
+DADOS DE SAÍDA TRIFASICO 380V:
+Potência nominal de saída 40KW
+Conexão de rede AC / Fases de alimentação - L1, L2, L3, N, PE
+Fator de Potência Nominal/Faixa - 1 / 0,8i … 0,8c
+Tensão nominal 400VCA (3 NPE 220V + N)
+Faixa de tensão - 320~480VCA
+Frequência nominal / Faixa de Frequência 50, 60 / 45 … 65Hz
+Corrente máx. de saída 3x59A
+THD máximo <3%
+Eficiência máxima 98,2%
+Origem da alimentação (W) / Perdas em stand-by (W) - 40 / < 0,5
+
+DADOS DE ENTRADA TRIFASICO 220V:
+Potência FV máxima recomendada 33KWp
+Área de tensão MPP 350~890 VCC
+Tensão máx. de entrada 1000 VCC
+Corrente DC Operacional máxima 84A
+
+DADOS DE SAÍDA TRIFASICO 220V:
+Potência nominal de saída 22.000W
+Conexão de rede AC / Fases de alimentação - L1, L2, L3, N, PE
+Tensão nominal 208/220VCA (3 NPE 127V +N)
+Faixa de tensão - 166~264VCA
+Frequência nominal / Faixa de Frequência 60 / 57~ 63Hz Ajustável
+Corrente máx. de saída 3x58A
+THD máximo 1,8%
+
+DADOS GERAIS:
+Resfriamento - Convecção natural
+Temperatura Ambiente (°C) - 25 … + 60
+Umidade relativa do ar 4a 100%
+Ruído (dBA) < 45
+Tipo de proteção IP65
+Classificação ambiental (IEC 721-3-4) 4K4H
+Grau de poluição(IEC 62109-6-3) 3
+Comunicação - LAN, RS485, Sensores de irradiação e temperatura / sinal de parada externo
+Certificações - VDE V 0126-1-1, IEC 62109-1, IEC 62109-2, IEC 62116, IEC 61727,IEC 61683, IEC 60364-7-712, BDEW, AR-N 4105, G59/3, CEI 0-21, CEI 0-16, EN 50438, AS 4777 (Você pode encontrar as últimas certificações no site www.refu-sol.com)
+
+PROTEÇÃO E SEGURANÇA:
+Disjuntor DC
+Monitoramento de isolação
+Monitoramento de rede - Voltagem, Frequência, Anti-Ilhamento, Injeção DC
+Fusíveis de strings externos
+Separação de rede através relé de Rede Redundante
+Monitoramento de Corrente Residual
+Proteção Interna Contra Sobretensão tipo 3
+Classe de Proteção (IEC 62103) / Categoria de Sobretensão (EN 60664-1) I / DC: II, AC: III

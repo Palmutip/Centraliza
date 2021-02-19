@@ -1,0 +1,25 @@
+Entrada (CC)
+Máxima potência do gerador fotovoltaico 9.000Wp
+Tensão máxima de entrada 600V
+Intervalo de tensão MPP 210V a 500V
+Tensão de entrada inicial 125V
+Corrente máxima de entrada 15A para cada Mppt
+Número de entradas Mppt 2
+
+Saída (CA)
+Potência atribuída 6.000W
+Potência aparente máx. 6.000VA
+Tensão nominal 220V
+Intervalo de tensão 180V a 280V
+Frequência de rede 60Hz
+Corrente máxima de saída 26,1A
+
+Rendimento
+Rendimento máximo 97% 
+
+Dados gerais
+Temperatura de operação -25°C a +60°C
+Emissões sonoras, típicas <25dBa
+Autoconsumo (noite) 1 W
+Topologia sem transformador
+Refrigeração ativo

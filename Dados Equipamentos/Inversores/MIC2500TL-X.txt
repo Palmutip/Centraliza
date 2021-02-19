@@ -1,0 +1,25 @@
+Dados de entrada:
+Tensão máx. de entrada 550 VCC
+Área de tensão MPP 65~550 VCC
+Tensão nominal de entrada 360 VCC
+Corrente DC máxima por MPPT 13A
+Corrente de curto DC máxima por MPPT 16A
+Rastreadores de MPP 1
+Arranjo por MPPT 1
+
+Dados de saída
+Potência nominal de saída 2.5KW
+Tensão nominal 230V (180V-280V)
+Frequência nominal 60Hz
+Corrente máx. de saída 12.5A
+Eficiência máxima 97%
+THDi <3%
+
+Dispositivos de proteção
+- Proteção contra polaridade reversa CC
+- Chave Seccionadora
+- Proteção de sobretensão CC
+- Proteção de sobrecorrente de saída
+- Monitoramento de falta de terra
+- Monitoramento da rede elétrica
+- Monitoramento de corrente de fuga em todos os pólos.

@@ -1,0 +1,34 @@
+DADOS DE ENTRADA
+Potencia PV recomendada (kWp) 9.5 - 15.5
+Max. corrente do conjunto curto-circuito (MPPT1/MPPT 2) 25.0 A / 16.5 A
+Faixa de voltagem MPP 300 - 500 V
+Faixa de voltagem operando 200 - 600 V
+Max. tensão de entrada 600 V
+Tensão nominal de entrada 350 V
+Número de MPP 2
+
+DADOS DE SAIDA
+Max. potência de saída 11995 VA
+Max. corrente de saida 35.0 A
+Max. Effi ciencia 97.0 %
+CEC Effi ciencia 96.5 %
+Conexão Grid (U ac,r ) 3-NPE 208~240V (TRIFASICO 220V)
+Frequencia(f r ) 60 Hz
+Fator de distorção < 1.75 %
+Fator de potencia 0 - 1 ind./cap.
+
+DADOS GERAIS
+AFCI & 2014 NEC Ready Sim
+Medição de isolamento CC Sim
+Disjuntor CC Sim
+Ground Fault Protection with Isolation Monitor Interrupter: Sim
+Grau de proteção NEMA 4X
+Consuno Noturno < 1 W
+Conceito retifi cador Sem transformador
+Resfriamento Velocidade do ventilador variável
+Instalação Montagem interna e externa
+Faixa de temperatura ambiente -40 - +60 °C
+Umidade relativa permitida 0 - 100 % (non-condensing)
+Tecnologia de conexão de rede: 6x DC+ and 6x DC- screw terminals for copper (solid / stranded / fi ne stranded) or aluminum
+Certifi cados e compliance para modelo básico: UL 1741-2010, UL1998 (for functions: AFCI and isolation monitoring), IEEE 1547-2003, IEEE 1547.1-2008, ANSI/IEEE C62.41, FCC Part 15 A & B, NEC Article 690, C22. 2 No. 107.1-01
+( September 2001), UL1699B Issue 2 -2013, CSA TIL M-07 Issue 1 -2013, ABNT NBR 16149
