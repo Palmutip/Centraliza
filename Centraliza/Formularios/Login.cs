@@ -30,11 +30,6 @@ namespace Centraliza
 
         private void btnautenticar_Click(object sender, EventArgs e)
         {
-            //funcao.SelecionaBanco();
-            //funcao.PesquisaLogin(txtlogin.Text, funcao.Banco);
-            //aux = txtlogin.Text;
-            //if((txtlogin.Text == funcao.Login) && (txtsenha.Text == funcao.Senha))
-            //{
                 if(((TelaInicial)this.Owner).ValidaLogin(txtlogin.Text, txtsenha.Text))
                 {
                     this.Close();
@@ -43,24 +38,12 @@ namespace Centraliza
                 {
                     MessageBox.Show("Usuário ou Senha incorretos", "Atenção");
                 }
-                /*nt = new Thread(Novoform);
-                nt.SetApartmentState(ApartmentState.STA);
-                nt.Start();*/
-            /*}
-            else
-            {
-                MessageBox.Show("Usuário ou Senha incorretos", "Atenção");
-            }*/
         }
         private void txtsenha_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
-                /*funcao.SelecionaBanco();
-                funcao.PesquisaLogin(txtlogin.Text, funcao.Banco);
 
-                if ((txtlogin.Text == funcao.Login) && (txtsenha.Text == funcao.Senha))
-                {*/
                     if (((TelaInicial)this.Owner).ValidaLogin(txtlogin.Text, txtsenha.Text))
                     {
                         this.Close();
@@ -69,16 +52,6 @@ namespace Centraliza
                     {
                         MessageBox.Show("Usuário ou Senha incorretos", "Atenção");
                     }
-                    /*TelaInicial t = new TelaInicial(txtlogin.Text);
-                    t.Show();*/
-                    /*nt = new Thread(Novoform);
-                    nt.SetApartmentState(ApartmentState.STA);
-                    nt.Start();*/
-                /*}
-                else
-                {
-                    MessageBox.Show("Usuário ou Senha incorretos", "Atenção");
-                }*/
             }
         }
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
 namespace Centraliza.Classes
@@ -12,15 +13,15 @@ namespace Centraliza.Classes
         private static FuncoesBanco func = new FuncoesBanco();
         public MySqlConnection AbreMySQL()
         {
-            func.SelecionaBanco();
-            if (func.Banco == "mysql")
+            try
             {
-                MySqlConnection conexao = new MySqlConnection("SERVER=" + func.Servidor + ";PORT=3306;DATABASE=" + func.NomeDB + ";UID=" + func.UID + ";PASSWORD=" + func.Password +"");
+                MySqlConnection conexao = new MySqlConnection("SERVER=" + "192.168.56.1" + ";PORT=3306;DATABASE=" + "mysolar" + ";UID=" + "MASTER" + ";PASSWORD=" + "303304" + "");
                 conexao.Open();
                 return conexao;
             }
-            else
+            catch(Exception ex)
             {
+                MessageBox.Show("Erro ao conectar-se com o Banco de Dados. " + Environment.NewLine + ex.Message);
                 return null;
             }
         }

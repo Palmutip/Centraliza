@@ -1,0 +1,15 @@
+Dados elétricos
+Potência nominal máx. (Pmáx) 335W
+Tensão operacional ideal (Vmp) 38,10V
+Corrente operacional ideal (Imp) 8,79A
+Tensão de circuito aberto (Voc) 45,44 V
+Corrente de curto circuito (Isc) 9,25A
+Eficiência do módulo 17%
+Temperatura operacional -40 °C ~ +85°C
+Tensão máxima do sistema 1.500V
+Classificação máxima de fusíveis da série 15 A
+
+Coeficientes de temperatura
+Coeficiente de temperatura da corrente de curto-circuito 0.07%/?
+Coeficiente de temperatura da tensão de circuito aberto -0.31%/?
+Coeficiente de temperatura de potência de pico -0,39%/°C

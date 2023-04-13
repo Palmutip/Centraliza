@@ -68,9 +68,10 @@
             this.txtlogin.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtlogin.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtlogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.txtlogin.Location = new System.Drawing.Point(784, 272);
+            this.txtlogin.Location = new System.Drawing.Point(588, 221);
+            this.txtlogin.Margin = new System.Windows.Forms.Padding(2);
             this.txtlogin.Name = "txtlogin";
-            this.txtlogin.Size = new System.Drawing.Size(301, 36);
+            this.txtlogin.Size = new System.Drawing.Size(226, 29);
             this.txtlogin.TabIndex = 2;
             this.txtlogin.Text = "Usuário";
             this.txtlogin.Enter += new System.EventHandler(this.txtlogin_Enter);
@@ -83,9 +84,10 @@
             this.txtsenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtsenha.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtsenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.txtsenha.Location = new System.Drawing.Point(784, 327);
+            this.txtsenha.Location = new System.Drawing.Point(588, 266);
+            this.txtsenha.Margin = new System.Windows.Forms.Padding(2);
             this.txtsenha.Name = "txtsenha";
-            this.txtsenha.Size = new System.Drawing.Size(301, 36);
+            this.txtsenha.Size = new System.Drawing.Size(226, 29);
             this.txtsenha.TabIndex = 3;
             this.txtsenha.Text = "Senha";
             this.txtsenha.Enter += new System.EventHandler(this.txtsenha_Enter);
@@ -100,9 +102,10 @@
             this.btnautenticar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnautenticar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnautenticar.ForeColor = System.Drawing.Color.White;
-            this.btnautenticar.Location = new System.Drawing.Point(724, 424);
+            this.btnautenticar.Location = new System.Drawing.Point(543, 344);
+            this.btnautenticar.Margin = new System.Windows.Forms.Padding(2);
             this.btnautenticar.Name = "btnautenticar";
-            this.btnautenticar.Size = new System.Drawing.Size(361, 45);
+            this.btnautenticar.Size = new System.Drawing.Size(271, 37);
             this.btnautenticar.TabIndex = 4;
             this.btnautenticar.Text = "Entrar";
             this.btnautenticar.UseVisualStyleBackColor = false;
@@ -121,9 +124,10 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(-4, -3);
+            this.panel1.Location = new System.Drawing.Point(-3, -2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(550, 765);
+            this.panel1.Size = new System.Drawing.Size(412, 622);
             this.panel1.TabIndex = 5;
             // 
             // button1
@@ -133,10 +137,10 @@
             this.button1.Enabled = false;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(71, 674);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Location = new System.Drawing.Point(53, 548);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(83, 11);
+            this.button1.Size = new System.Drawing.Size(62, 9);
             this.button1.TabIndex = 7;
             this.button1.UseVisualStyleBackColor = false;
             // 
@@ -146,10 +150,10 @@
             this.button25.Enabled = false;
             this.button25.FlatAppearance.BorderSize = 0;
             this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25.Location = new System.Drawing.Point(71, 88);
-            this.button25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button25.Location = new System.Drawing.Point(53, 72);
+            this.button25.Margin = new System.Windows.Forms.Padding(2);
             this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(83, 11);
+            this.button25.Size = new System.Drawing.Size(62, 9);
             this.button25.TabIndex = 6;
             this.button25.UseVisualStyleBackColor = false;
             // 
@@ -159,9 +163,10 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(63, 615);
+            this.label6.Location = new System.Drawing.Point(47, 500);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(171, 45);
+            this.label6.Size = new System.Drawing.Size(143, 37);
             this.label6.TabIndex = 5;
             this.label6.Text = "economia";
             // 
@@ -171,9 +176,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(63, 569);
+            this.label5.Location = new System.Drawing.Point(47, 462);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(294, 45);
+            this.label5.Size = new System.Drawing.Size(241, 37);
             this.label5.TabIndex = 4;
             this.label5.Text = "com quem garante";
             // 
@@ -183,9 +189,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(145, 523);
+            this.label4.Location = new System.Drawing.Point(109, 425);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(136, 45);
+            this.label4.Size = new System.Drawing.Size(114, 37);
             this.label4.TabIndex = 3;
             this.label4.Text = "energia";
             // 
@@ -195,9 +202,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(63, 523);
+            this.label3.Location = new System.Drawing.Point(47, 425);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 45);
+            this.label3.Size = new System.Drawing.Size(73, 37);
             this.label3.TabIndex = 2;
             this.label3.Text = "Gere";
             // 
@@ -205,9 +213,10 @@
             // 
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(63, 172);
+            this.label1.Location = new System.Drawing.Point(47, 140);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(388, 103);
+            this.label1.Size = new System.Drawing.Size(291, 84);
             this.label1.TabIndex = 1;
             this.label1.Text = "Software utilizado para controle de clientes, equipamentos, geração de orçamentos" +
     " e projetos.";
@@ -217,9 +226,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(63, 104);
+            this.label2.Location = new System.Drawing.Point(47, 84);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(179, 45);
+            this.label2.Size = new System.Drawing.Size(147, 37);
             this.label2.TabIndex = 0;
             this.label2.Text = "Bem Vindo";
             // 
@@ -229,9 +239,10 @@
             this.pictureBox3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox3.Image = global::Centraliza.Properties.Resources.XMLID_30_;
-            this.pictureBox3.Location = new System.Drawing.Point(729, 327);
+            this.pictureBox3.Location = new System.Drawing.Point(547, 266);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(55, 36);
+            this.pictureBox3.Size = new System.Drawing.Size(41, 29);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox3.TabIndex = 8;
             this.pictureBox3.TabStop = false;
@@ -242,10 +253,11 @@
             this.pictureBox2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox2.Image = global::Centraliza.Properties.Resources.user_cinza;
-            this.pictureBox2.Location = new System.Drawing.Point(729, 272);
+            this.pictureBox2.Location = new System.Drawing.Point(547, 221);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Padding = new System.Windows.Forms.Padding(5);
-            this.pictureBox2.Size = new System.Drawing.Size(55, 36);
+            this.pictureBox2.Padding = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Size = new System.Drawing.Size(41, 29);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
@@ -255,9 +267,10 @@
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.BackgroundImage = global::Centraliza.Properties.Resources.RGB;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(734, 120);
+            this.pictureBox1.Location = new System.Drawing.Point(550, 98);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(310, 105);
+            this.pictureBox1.Size = new System.Drawing.Size(232, 85);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
@@ -266,12 +279,14 @@
             this.chkmanterlogado.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.chkmanterlogado.AutoSize = true;
             this.chkmanterlogado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.chkmanterlogado.Location = new System.Drawing.Point(734, 379);
+            this.chkmanterlogado.Location = new System.Drawing.Point(550, 308);
+            this.chkmanterlogado.Margin = new System.Windows.Forms.Padding(2);
             this.chkmanterlogado.Name = "chkmanterlogado";
-            this.chkmanterlogado.Size = new System.Drawing.Size(161, 21);
+            this.chkmanterlogado.Size = new System.Drawing.Size(125, 17);
             this.chkmanterlogado.TabIndex = 9;
             this.chkmanterlogado.Text = "Continuar conectado";
             this.chkmanterlogado.UseVisualStyleBackColor = true;
+            this.chkmanterlogado.Visible = false;
             // 
             // lblfazercadastro
             // 
@@ -280,11 +295,13 @@
             this.lblfazercadastro.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblfazercadastro.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblfazercadastro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.lblfazercadastro.Location = new System.Drawing.Point(805, 611);
+            this.lblfazercadastro.Location = new System.Drawing.Point(604, 496);
+            this.lblfazercadastro.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblfazercadastro.Name = "lblfazercadastro";
-            this.lblfazercadastro.Size = new System.Drawing.Size(198, 38);
+            this.lblfazercadastro.Size = new System.Drawing.Size(156, 30);
             this.lblfazercadastro.TabIndex = 10;
             this.lblfazercadastro.Text = "Fazer Cadastro";
+            this.lblfazercadastro.Visible = false;
             this.lblfazercadastro.Click += new System.EventHandler(this.lblfazercadastro_Click);
             // 
             // pnlcadastrousuario
@@ -298,9 +315,10 @@
             this.pnlcadastrousuario.Controls.Add(this.textBox2);
             this.pnlcadastrousuario.Controls.Add(this.button2);
             this.pnlcadastrousuario.Controls.Add(this.panel3);
-            this.pnlcadastrousuario.Location = new System.Drawing.Point(-1, -3);
+            this.pnlcadastrousuario.Location = new System.Drawing.Point(-1, -2);
+            this.pnlcadastrousuario.Margin = new System.Windows.Forms.Padding(2);
             this.pnlcadastrousuario.Name = "pnlcadastrousuario";
-            this.pnlcadastrousuario.Size = new System.Drawing.Size(1269, 759);
+            this.pnlcadastrousuario.Size = new System.Drawing.Size(952, 617);
             this.pnlcadastrousuario.TabIndex = 11;
             this.pnlcadastrousuario.Visible = false;
             // 
@@ -308,10 +326,10 @@
             // 
             this.btnvolta4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnvolta4.Image = global::Centraliza.Properties.Resources.back_button;
-            this.btnvolta4.Location = new System.Drawing.Point(99, 66);
-            this.btnvolta4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnvolta4.Location = new System.Drawing.Point(74, 54);
+            this.btnvolta4.Margin = new System.Windows.Forms.Padding(2);
             this.btnvolta4.Name = "btnvolta4";
-            this.btnvolta4.Size = new System.Drawing.Size(51, 50);
+            this.btnvolta4.Size = new System.Drawing.Size(38, 41);
             this.btnvolta4.TabIndex = 12;
             this.btnvolta4.UseVisualStyleBackColor = true;
             this.btnvolta4.Click += new System.EventHandler(this.btnvolta4_Click);
@@ -320,9 +338,10 @@
             // 
             this.pictureBox4.BackgroundImage = global::Centraliza.Properties.Resources.RGB;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox4.Location = new System.Drawing.Point(197, 43);
+            this.pictureBox4.Location = new System.Drawing.Point(148, 35);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(310, 105);
+            this.pictureBox4.Size = new System.Drawing.Size(232, 85);
             this.pictureBox4.TabIndex = 10;
             this.pictureBox4.TabStop = false;
             // 
@@ -332,9 +351,10 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.textBox1.Location = new System.Drawing.Point(197, 190);
+            this.textBox1.Location = new System.Drawing.Point(148, 154);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(759, 36);
+            this.textBox1.Size = new System.Drawing.Size(569, 29);
             this.textBox1.TabIndex = 7;
             this.textBox1.Text = "Nome Completo";
             this.textBox1.Enter += new System.EventHandler(this.textBox1_Enter);
@@ -346,9 +366,10 @@
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.textBox2.Location = new System.Drawing.Point(197, 248);
+            this.textBox2.Location = new System.Drawing.Point(148, 202);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(759, 36);
+            this.textBox2.Size = new System.Drawing.Size(569, 29);
             this.textBox2.TabIndex = 8;
             this.textBox2.Text = "email";
             this.textBox2.Enter += new System.EventHandler(this.textBox2_Enter);
@@ -361,9 +382,10 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(197, 306);
+            this.button2.Location = new System.Drawing.Point(148, 249);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(361, 45);
+            this.button2.Size = new System.Drawing.Size(271, 37);
             this.button2.TabIndex = 9;
             this.button2.Text = "Entrar";
             this.button2.UseVisualStyleBackColor = false;
@@ -375,16 +397,17 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(83)))), ((int)(((byte)(19)))));
             this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(31, 759);
+            this.panel3.Size = new System.Drawing.Size(23, 617);
             this.panel3.TabIndex = 6;
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1261, 753);
+            this.ClientSize = new System.Drawing.Size(946, 612);
             this.Controls.Add(this.pnlcadastrousuario);
             this.Controls.Add(this.lblfazercadastro);
             this.Controls.Add(this.chkmanterlogado);
@@ -396,6 +419,7 @@
             this.Controls.Add(this.txtsenha);
             this.Controls.Add(this.btnautenticar);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "mysolar";

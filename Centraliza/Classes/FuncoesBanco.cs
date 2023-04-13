@@ -100,6 +100,7 @@ namespace Centraliza
         public string UID { get; set; }
         public string Password { get; set; }
         public byte[] Foto { get; set; }
+        public string FotoUsuario { get; set; }
         public string NumeroCliente { get; set; }
         public string NumeroInstalacao { get; set; }
         public string Classe { get; set; }
@@ -577,6 +578,7 @@ namespace Centraliza
 
                 if (dados.Read())
                 {
+                    Id = Convert.ToInt32(dados["Id"].ToString());
                     MarcaInversor = dados["Marca"].ToString();
                     ModeloInversor = dados["Modelo"].ToString();
                     PotenciaInv = dados["Potencia"].ToString();
@@ -1251,7 +1253,7 @@ namespace Centraliza
             {
                 string SQL;
 
-                SQL = "Insert into Credenciais (Login, Senha, Nome_Completo, email, Foto) values('" + Login + "','" + Senha + "','" + Nome + "','" + email + "','" + Foto + "')";
+                SQL = "Insert into Credenciais (Login, Senha, Nome_Completo, email, Foto) values('" + Login + "','" + Senha + "','" + Nome + "','" + email + "','" + FotoUsuario + "')";
 
                 ConectaBanco.ExecutaComando(SQL);
                 ConectaBanco.FechaBanco();
@@ -1260,7 +1262,7 @@ namespace Centraliza
             {
                 string SQL;
 
-                SQL = "Insert into Credenciais (Login, Senha, Nome_Completo, email, Foto) values('" + Login + "','" + Senha + "','" + Nome + "','" + email + "','" + Foto + "')";
+                SQL = "Insert into Credenciais (Login, Senha, Nome_Completo, email, Foto) values('" + Login + "','" + Senha + "','" + Nome + "','" + email + "','" + FotoUsuario + "')";
 
                 conectaMySQL.ExecutaComando(SQL);
                 conectaMySQL.FechaMySQL();
@@ -1283,6 +1285,28 @@ namespace Centraliza
                 string SQL;
 
                 SQL = "Update Credenciais set Login='" + Login + "', Senha='" + Senha + "' where Id =" + Id;
+
+                conectaMySQL.ExecutaComando(SQL);
+                conectaMySQL.FechaMySQL();
+            }
+            return true;
+        }
+        public bool AtualizaUsario(string BD, string nomeCompleto)
+        {
+            if (BD == "local")
+            {
+                string SQL;
+
+                SQL = "Update Credenciais set Login='" + Login + "', Senha='" + Senha + "' where Id =" + Id;
+
+                ConectaBanco.ExecutaComando(SQL);
+                ConectaBanco.FechaBanco();
+            }
+            else if (BD == "mysql")
+            {
+                string SQL;
+
+                SQL = "Update Credenciais set Login='" + Login + "', Senha='" + Senha + "', Nome_Completo='" + Nome + "', email='" + email + "', Foto='" + FotoUsuario + "' where Nome_Completo = '" + nomeCompleto + "'";
 
                 conectaMySQL.ExecutaComando(SQL);
                 conectaMySQL.FechaMySQL();
@@ -1332,6 +1356,7 @@ namespace Centraliza
                     Senha = dados["Senha"].ToString();
                     Nome = dados["Nome_Completo"].ToString();
                     email = dados["email"].ToString();
+                    FotoUsuario = dados["Foto"].ToString();
                     conectaMySQL.FechaMySQL();
                     return true;
                 }
@@ -1424,35 +1449,12 @@ namespace Centraliza
                 while (dados.Read())
                 {
                     Foto = (byte[])(dados["Foto"]);
+                    FotoUsuario = dados["Foto"].ToString();
                 }
                 conectaMySQL.FechaMySQL();
             }
         }
-
-        //Tabela Cidades
-        /*public void ClimaBrasil(string aux)
-        {
-            string SQL;
-            SQL = "Select * from Cidades where Cidade = '" + aux + "'";
-
-            SqlDataReader dados = ConectaBanco.ExecutaConsulta(SQL);
-
-            if (dados.Read())
-            {
-                CliJan = dados["Janeiro"].ToString();
-                CliFev = dados["Fevereiro"].ToString();
-                CliMar = dados["Marco"].ToString();
-                CliAbr = dados["Abril"].ToString();
-                CliMai = dados["Maio"].ToString();
-                CliJun = dados["Junho"].ToString();
-                CliJul = dados["Julho"].ToString();
-                CliAgo = dados["Agosto"].ToString();
-                CliSet = dados["Setembro"].ToString();
-                CliOut = dados["Outubro"].ToString();
-                CliNov = dados["Novembro"].ToString();
-                CliDez = dados["Dezembro"].ToString();
-            }
-        }*/
+        
         public void PesquisaMediaTemp(string aux, string BD)
         {
 
@@ -1713,6 +1715,7 @@ namespace Centraliza
 
                 if (dados.Read())
                 {
+                    Id = Convert.ToInt32(dados["Id"].ToString());
                     MarcaMod = dados["Marca"].ToString();
                     ModeloModulo = dados["Modelo"].ToString();
                     PotenciaMod = dados["Potencia"].ToString();
@@ -2870,7 +2873,7 @@ namespace Centraliza
                 NomeDB = dados["NomeBD"].ToString();
                 UID = dados["UID"].ToString();
                 Password = dados["Senha"].ToString();
-    }
+            }
         }
         public void AlterarBanco(string Banco)
         {

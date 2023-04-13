@@ -28,7 +28,7 @@ namespace Centraliza
         int qtdorc = 0, i=4,j=0;
         int tjan, tfev, tmar, tabr, tmai, tjun, tjul, tago, tout, tnov, tset, tdez, somadisp;
         double potenciagerada, gerano, payback, valorsisjuros, total = 0, resultado = 0, percas = 1, simpot = 0;
-        string payback1, potger1, gerano1, germes1, contot, conmes1, dimensao1, caixaacumulado;
+        string payback1, potger1, gerano1, germes1, contot, conmes1, dimensao1, caixaacumulado, foto;
         string valorsist, valsisjur, valparcela, valorequip, valorrestante1, Banco, pottotalmodprojeto, pottotalinvprojeto;
         String imageLocation = "";
         bool editando = false, validado = false, duplo=false;
@@ -36,11 +36,6 @@ namespace Centraliza
         Login login = new Login();
         FuncoesBanco func = new FuncoesBanco();
         Orcamento orcamento = new Orcamento();
-
-        private void TesteForm()
-        {
-            Application.Run(new Formularios.Teste());
-        }
 
         //Construtores
         public TelaInicial()
@@ -50,6 +45,7 @@ namespace Centraliza
             pgbstatusorca.Value = 0;
             pgbstatusproj.Maximum = 26;
             pgbstatusproj.Value = 0;
+            foto = "";
         }
         public TelaInicial(string Login)
         {
@@ -62,11 +58,12 @@ namespace Centraliza
         }
         private void TelaInicial_Load(object sender, EventArgs e)
         {
-            func.SelecionaBanco();
-            if (func.Banco == "local" || func.Banco == "mysql")
-            {
-                Banco = func.Banco;
-            }
+            //func.SelecionaBanco();
+            //if (func.Banco == "local" || func.Banco == "mysql")
+            //{
+            //    Banco = func.Banco;
+            //}
+            Banco = "mysql";
             login.Owner = this;
             login.ShowDialog();
             if (!validado)
@@ -572,6 +569,7 @@ namespace Centraliza
             {
                 func.Perdas = "40";
             }
+
             if (!editando)
             {
                 func.Salvaorc(Banco);
@@ -730,15 +728,15 @@ namespace Centraliza
             }
             else if (rbtn30.Checked)
             {
-                germes *= 0.7;
+                germes *= 1.1;
             }
             else if (rbtn35.Checked)
             {
-                germes *= 0.65;
+                germes *= 1.075;
             }
             else if (rbtn40.Checked)
             {
-                germes *= 0.6;
+                germes *= 1.05;
             }
             germes1 = germes.ToString();
             germes1 = string.Format("{0:0,0}", germes);
@@ -773,15 +771,15 @@ namespace Centraliza
             }
             else if (rbtn30.Checked)
             {
-                gerano *= 0.7;
+                gerano *= 1.1;
             }
             else if (rbtn35.Checked)
             {
-                gerano *= 0.65;
+                gerano *= 1.075;
             }
             else if (rbtn40.Checked)
             {
-                gerano *= 0.6;
+                gerano *= 1.05;
             }
             gerano1 = gerano.ToString();
             gerano1 = string.Format("{0:0,0}", gerano);
@@ -1326,6 +1324,8 @@ namespace Centraliza
             chksimop4.Checked = false;
 
             percas = 1;
+
+            foto = "";
         }
         private void Preencheconsumo()
         {
@@ -1922,48 +1922,48 @@ namespace Centraliza
             }
             else if (rbtn30.Checked)
             {
-                chartgeracao.Series["Geração"].Points.AddXY("Janeiro", potenciagerada * 5.48 * 31 * 0.83 * 0.7);
-                chartgeracao.Series["Geração"].Points.AddXY("Fevereiro", potenciagerada * 5.7 * 29 * 0.83 * 0.7);
-                chartgeracao.Series["Geração"].Points.AddXY("Março", potenciagerada * 4.85 * 31 * 0.83 * 0.7);
-                chartgeracao.Series["Geração"].Points.AddXY("Abril", potenciagerada * 4.59 * 30 * 0.83 * 0.7);
-                chartgeracao.Series["Geração"].Points.AddXY("Maio", potenciagerada * 3.95 * 31 * 0.83 * 0.7);
-                chartgeracao.Series["Geração"].Points.AddXY("Junho", potenciagerada * 3.76 * 30 * 0.83 * 0.7);
-                chartgeracao.Series["Geração"].Points.AddXY("Julho", potenciagerada * 4.01 * 31 * 0.83 * 0.7);
-                chartgeracao.Series["Geração"].Points.AddXY("Agosto", potenciagerada * 4.86 * 31 * 0.83 * 0.7);
-                chartgeracao.Series["Geração"].Points.AddXY("Setembro", potenciagerada * 5.08 * 30 * 0.83 * 0.7);
-                chartgeracao.Series["Geração"].Points.AddXY("Outubro", potenciagerada * 5.37 * 31 * 0.83 * 0.7);
-                chartgeracao.Series["Geração"].Points.AddXY("Novembro", potenciagerada * 5.22 * 30 * 0.83 * 0.7);
-                chartgeracao.Series["Geração"].Points.AddXY("Dezembro", potenciagerada * 5.59 * 31 * 0.83 * 0.7);
+                chartgeracao.Series["Geração"].Points.AddXY("Janeiro", potenciagerada * 5.48 * 31 * 0.83 * 1.1);
+                chartgeracao.Series["Geração"].Points.AddXY("Fevereiro", potenciagerada * 5.7 * 29 * 0.83 * 1.1);
+                chartgeracao.Series["Geração"].Points.AddXY("Março", potenciagerada * 4.85 * 31 * 0.83 * 1.1);
+                chartgeracao.Series["Geração"].Points.AddXY("Abril", potenciagerada * 4.59 * 30 * 0.83 * 1.1);
+                chartgeracao.Series["Geração"].Points.AddXY("Maio", potenciagerada * 3.95 * 31 * 0.83 * 1.1);
+                chartgeracao.Series["Geração"].Points.AddXY("Junho", potenciagerada * 3.76 * 30 * 0.83 * 1.1);
+                chartgeracao.Series["Geração"].Points.AddXY("Julho", potenciagerada * 4.01 * 31 * 0.83 * 1.1);
+                chartgeracao.Series["Geração"].Points.AddXY("Agosto", potenciagerada * 4.86 * 31 * 0.83 * 1.1);
+                chartgeracao.Series["Geração"].Points.AddXY("Setembro", potenciagerada * 5.08 * 30 * 0.83 * 1.1);
+                chartgeracao.Series["Geração"].Points.AddXY("Outubro", potenciagerada * 5.37 * 31 * 0.83 * 1.1);
+                chartgeracao.Series["Geração"].Points.AddXY("Novembro", potenciagerada * 5.22 * 30 * 0.83 * 1.1);
+                chartgeracao.Series["Geração"].Points.AddXY("Dezembro", potenciagerada * 5.59 * 31 * 0.83 * 1.1);
             }
             else if (rbtn35.Checked)
             {
-                chartgeracao.Series["Geração"].Points.AddXY("Janeiro", potenciagerada * 5.48 * 31 * 0.83 * 0.65);
-                chartgeracao.Series["Geração"].Points.AddXY("Fevereiro", potenciagerada * 5.7 * 29 * 0.83 * 0.65);
-                chartgeracao.Series["Geração"].Points.AddXY("Março", potenciagerada * 4.85 * 31 * 0.83 * 0.65);
-                chartgeracao.Series["Geração"].Points.AddXY("Abril", potenciagerada * 4.59 * 30 * 0.83 * 0.65);
-                chartgeracao.Series["Geração"].Points.AddXY("Maio", potenciagerada * 3.95 * 31 * 0.83 * 0.65);
-                chartgeracao.Series["Geração"].Points.AddXY("Junho", potenciagerada * 3.76 * 30 * 0.83 * 0.65);
-                chartgeracao.Series["Geração"].Points.AddXY("Julho", potenciagerada * 4.01 * 31 * 0.83 * 0.65);
-                chartgeracao.Series["Geração"].Points.AddXY("Agosto", potenciagerada * 4.86 * 31 * 0.83 * 0.65);
-                chartgeracao.Series["Geração"].Points.AddXY("Setembro", potenciagerada * 5.08 * 30 * 0.83 * 0.65);
-                chartgeracao.Series["Geração"].Points.AddXY("Outubro", potenciagerada * 5.37 * 31 * 0.83 * 0.65);
-                chartgeracao.Series["Geração"].Points.AddXY("Novembro", potenciagerada * 5.22 * 30 * 0.83 * 0.65);
-                chartgeracao.Series["Geração"].Points.AddXY("Dezembro", potenciagerada * 5.59 * 31 * 0.83 * 0.65);
+                chartgeracao.Series["Geração"].Points.AddXY("Janeiro", potenciagerada * 5.48 * 31 * 0.83 * 1.075);
+                chartgeracao.Series["Geração"].Points.AddXY("Fevereiro", potenciagerada * 5.7 * 29 * 0.83 * 1.075);
+                chartgeracao.Series["Geração"].Points.AddXY("Março", potenciagerada * 4.85 * 31 * 0.83 * 1.075);
+                chartgeracao.Series["Geração"].Points.AddXY("Abril", potenciagerada * 4.59 * 30 * 0.83 * 1.075);
+                chartgeracao.Series["Geração"].Points.AddXY("Maio", potenciagerada * 3.95 * 31 * 0.83 * 1.075);
+                chartgeracao.Series["Geração"].Points.AddXY("Junho", potenciagerada * 3.76 * 30 * 0.83 * 1.075);
+                chartgeracao.Series["Geração"].Points.AddXY("Julho", potenciagerada * 4.01 * 31 * 0.83 * 1.075);
+                chartgeracao.Series["Geração"].Points.AddXY("Agosto", potenciagerada * 4.86 * 31 * 0.83 * 1.075);
+                chartgeracao.Series["Geração"].Points.AddXY("Setembro", potenciagerada * 5.08 * 30 * 0.83 * 1.075);
+                chartgeracao.Series["Geração"].Points.AddXY("Outubro", potenciagerada * 5.37 * 31 * 0.83 * 1.075);
+                chartgeracao.Series["Geração"].Points.AddXY("Novembro", potenciagerada * 5.22 * 30 * 0.83 * 1.075);
+                chartgeracao.Series["Geração"].Points.AddXY("Dezembro", potenciagerada * 5.59 * 31 * 0.83 * 1.075);
             }
             else if (rbtn40.Checked)
             {
-                chartgeracao.Series["Geração"].Points.AddXY("Janeiro", potenciagerada * 5.48 * 31 * 0.83 * 0.6);
-                chartgeracao.Series["Geração"].Points.AddXY("Fevereiro", potenciagerada * 5.7 * 29 * 0.83 * 0.6);
-                chartgeracao.Series["Geração"].Points.AddXY("Março", potenciagerada * 4.85 * 31 * 0.83 * 0.6);
-                chartgeracao.Series["Geração"].Points.AddXY("Abril", potenciagerada * 4.59 * 30 * 0.83 * 0.6);
-                chartgeracao.Series["Geração"].Points.AddXY("Maio", potenciagerada * 3.95 * 31 * 0.83 * 0.6);
-                chartgeracao.Series["Geração"].Points.AddXY("Junho", potenciagerada * 3.76 * 30 * 0.83 * 0.6);
-                chartgeracao.Series["Geração"].Points.AddXY("Julho", potenciagerada * 4.01 * 31 * 0.83 * 0.6);
-                chartgeracao.Series["Geração"].Points.AddXY("Agosto", potenciagerada * 4.86 * 31 * 0.83 * 0.6);
-                chartgeracao.Series["Geração"].Points.AddXY("Setembro", potenciagerada * 5.08 * 30 * 0.83 * 0.6);
-                chartgeracao.Series["Geração"].Points.AddXY("Outubro", potenciagerada * 5.37 * 31 * 0.83 * 0.6);
-                chartgeracao.Series["Geração"].Points.AddXY("Novembro", potenciagerada * 5.22 * 30 * 0.83 * 0.6);
-                chartgeracao.Series["Geração"].Points.AddXY("Dezembro", potenciagerada * 5.59 * 31 * 0.83 * 0.6);
+                chartgeracao.Series["Geração"].Points.AddXY("Janeiro", potenciagerada * 5.48 * 31 * 0.83 * 1.05);
+                chartgeracao.Series["Geração"].Points.AddXY("Fevereiro", potenciagerada * 5.7 * 29 * 0.83 * 1.05);
+                chartgeracao.Series["Geração"].Points.AddXY("Março", potenciagerada * 4.85 * 31 * 0.83 * 1.05);
+                chartgeracao.Series["Geração"].Points.AddXY("Abril", potenciagerada * 4.59 * 30 * 0.83 * 1.05);
+                chartgeracao.Series["Geração"].Points.AddXY("Maio", potenciagerada * 3.95 * 31 * 0.83 * 1.05);
+                chartgeracao.Series["Geração"].Points.AddXY("Junho", potenciagerada * 3.76 * 30 * 0.83 * 1.05);
+                chartgeracao.Series["Geração"].Points.AddXY("Julho", potenciagerada * 4.01 * 31 * 0.83 * 1.05);
+                chartgeracao.Series["Geração"].Points.AddXY("Agosto", potenciagerada * 4.86 * 31 * 0.83 * 1.05);
+                chartgeracao.Series["Geração"].Points.AddXY("Setembro", potenciagerada * 5.08 * 30 * 0.83 * 1.05);
+                chartgeracao.Series["Geração"].Points.AddXY("Outubro", potenciagerada * 5.37 * 31 * 0.83 * 1.05);
+                chartgeracao.Series["Geração"].Points.AddXY("Novembro", potenciagerada * 5.22 * 30 * 0.83 * 1.05);
+                chartgeracao.Series["Geração"].Points.AddXY("Dezembro", potenciagerada * 5.59 * 31 * 0.83 * 1.05);
             }
             else if (rbtn0.Checked)
             {
@@ -2039,6 +2039,14 @@ namespace Centraliza
             pnlmod1.Visible = false;
             pnlinv1.Visible = false;
 
+            if (!pnlnovoproj0.Visible)
+            {
+                pnlnovoproj0.Visible = true;
+                pnlnovoproj1.Visible = false;
+                pnlnovoproj2.Visible = false;
+                pnlnovoproj3.Visible = false;
+            }
+            
             panel.Visible = true;
         }
         private void CarregaCombobox()
@@ -2230,7 +2238,7 @@ namespace Centraliza
             txtcusuario.Text = func.Login;
             txtcsenha.Text = func.Senha;
             txtcemail.Text = func.email;
-
+            pbxUsuario.Image = Base64ToImage(func.FotoUsuario);
         }
         public bool ValidaLogin(string login, string senha)
         {
@@ -2364,6 +2372,32 @@ namespace Centraliza
             {
                 MessageBox.Show("Verifique os arquivos de dados dos equipamentos do cliente", "Atenção");
                 return false;
+            }
+        }
+        private string ConverteBase64(string caminho)
+        {
+            using (Image image = Image.FromFile(caminho))
+            {
+                using (MemoryStream m = new MemoryStream())
+                {
+                    image.Save(m, image.RawFormat);
+                    byte[] imageBytes = m.ToArray();
+
+                    // Convert byte[] to Base64 String
+                    string base64String = Convert.ToBase64String(imageBytes);
+                    return base64String;
+                }
+            }
+        }
+        private Image Base64ToImage(string base64String)
+        {
+            // Convert base 64 string to byte[]
+            byte[] imageBytes = Convert.FromBase64String(base64String);
+            // Convert byte[] to Image
+            using (var ms = new MemoryStream(imageBytes, 0, imageBytes.Length))
+            {
+                Image image = Image.FromStream(ms, true);
+                return image;
             }
         }
 
@@ -2657,48 +2691,48 @@ namespace Centraliza
             }
             else if (rbtn30.Checked)
             {
-                wb.Worksheets[1].Cells.Replace("<1>", (potenciagerada * 5.48 * 31 * 0.83 * 0.70).ToString());
-                wb.Worksheets[1].Cells.Replace("<2>", (potenciagerada * 5.7 * 29 * 0.83 * 0.70).ToString());
-                wb.Worksheets[1].Cells.Replace("<3>", (potenciagerada * 4.85 * 31 * 0.83 * 0.70).ToString());
-                wb.Worksheets[1].Cells.Replace("<4>", (potenciagerada * 4.59 * 30 * 0.83 * 0.70).ToString());
-                wb.Worksheets[1].Cells.Replace("<5>", (potenciagerada * 3.95 * 31 * 0.83 * 0.70).ToString());
-                wb.Worksheets[1].Cells.Replace("<6>", (potenciagerada * 3.76 * 30 * 0.83 * 0.70).ToString());
-                wb.Worksheets[1].Cells.Replace("<7>", (potenciagerada * 4.01 * 31 * 0.83 * 0.70).ToString());
-                wb.Worksheets[1].Cells.Replace("<8>", (potenciagerada * 4.86 * 31 * 0.83 * 0.70).ToString());
-                wb.Worksheets[1].Cells.Replace("<9>", (potenciagerada * 5.08 * 30 * 0.83 * 0.70).ToString());
-                wb.Worksheets[1].Cells.Replace("<10>", (potenciagerada * 5.37 * 31 * 0.83 * 0.70).ToString());
-                wb.Worksheets[1].Cells.Replace("<11>", (potenciagerada * 5.22 * 30 * 0.83 * 0.70).ToString());
-                wb.Worksheets[1].Cells.Replace("<12>", (potenciagerada * 5.59 * 31 * 0.83 * 0.70).ToString());
+                wb.Worksheets[1].Cells.Replace("<1>", (potenciagerada * 5.48 * 31 * 0.83 * 1.10).ToString());
+                wb.Worksheets[1].Cells.Replace("<2>", (potenciagerada * 5.7 * 29 * 0.83 * 1.10).ToString());
+                wb.Worksheets[1].Cells.Replace("<3>", (potenciagerada * 4.85 * 31 * 0.83 * 1.10).ToString());
+                wb.Worksheets[1].Cells.Replace("<4>", (potenciagerada * 4.59 * 30 * 0.83 * 1.10).ToString());
+                wb.Worksheets[1].Cells.Replace("<5>", (potenciagerada * 3.95 * 31 * 0.83 * 1.10).ToString());
+                wb.Worksheets[1].Cells.Replace("<6>", (potenciagerada * 3.76 * 30 * 0.83 * 1.10).ToString());
+                wb.Worksheets[1].Cells.Replace("<7>", (potenciagerada * 4.01 * 31 * 0.83 * 1.10).ToString());
+                wb.Worksheets[1].Cells.Replace("<8>", (potenciagerada * 4.86 * 31 * 0.83 * 1.10).ToString());
+                wb.Worksheets[1].Cells.Replace("<9>", (potenciagerada * 5.08 * 30 * 0.83 * 1.10).ToString());
+                wb.Worksheets[1].Cells.Replace("<10>", (potenciagerada * 5.37 * 31 * 0.83 * 1.10).ToString());
+                wb.Worksheets[1].Cells.Replace("<11>", (potenciagerada * 5.22 * 30 * 0.83 * 1.10).ToString());
+                wb.Worksheets[1].Cells.Replace("<12>", (potenciagerada * 5.59 * 31 * 0.83 * 1.10).ToString());
             }
             else if (rbtn35.Checked)
             {
-                wb.Worksheets[1].Cells.Replace("<1>", (potenciagerada * 5.48 * 31 * 0.83 * 0.65).ToString());
-                wb.Worksheets[1].Cells.Replace("<2>", (potenciagerada * 5.7 * 29 * 0.83 * 0.65).ToString());
-                wb.Worksheets[1].Cells.Replace("<3>", (potenciagerada * 4.85 * 31 * 0.83 * 0.65).ToString());
-                wb.Worksheets[1].Cells.Replace("<4>", (potenciagerada * 4.59 * 30 * 0.83 * 0.65).ToString());
-                wb.Worksheets[1].Cells.Replace("<5>", (potenciagerada * 3.95 * 31 * 0.83 * 0.65).ToString());
-                wb.Worksheets[1].Cells.Replace("<6>", (potenciagerada * 3.76 * 30 * 0.83 * 0.65).ToString());
-                wb.Worksheets[1].Cells.Replace("<7>", (potenciagerada * 4.01 * 31 * 0.83 * 0.65).ToString());
-                wb.Worksheets[1].Cells.Replace("<8>", (potenciagerada * 4.86 * 31 * 0.83 * 0.65).ToString());
-                wb.Worksheets[1].Cells.Replace("<9>", (potenciagerada * 5.08 * 30 * 0.83 * 0.65).ToString());
-                wb.Worksheets[1].Cells.Replace("<10>", (potenciagerada * 5.37 * 31 * 0.83 * 0.65).ToString());
-                wb.Worksheets[1].Cells.Replace("<11>", (potenciagerada * 5.22 * 30 * 0.83 * 0.65).ToString());
-                wb.Worksheets[1].Cells.Replace("<12>", (potenciagerada * 5.59 * 31 * 0.83 * 0.65).ToString());
+                wb.Worksheets[1].Cells.Replace("<1>", (potenciagerada * 5.48 * 31 * 0.83 * 1.075).ToString());
+                wb.Worksheets[1].Cells.Replace("<2>", (potenciagerada * 5.7 * 29 * 0.83 * 1.075).ToString());
+                wb.Worksheets[1].Cells.Replace("<3>", (potenciagerada * 4.85 * 31 * 0.83 * 1.075).ToString());
+                wb.Worksheets[1].Cells.Replace("<4>", (potenciagerada * 4.59 * 30 * 0.83 * 1.075).ToString());
+                wb.Worksheets[1].Cells.Replace("<5>", (potenciagerada * 3.95 * 31 * 0.83 * 1.075).ToString());
+                wb.Worksheets[1].Cells.Replace("<6>", (potenciagerada * 3.76 * 30 * 0.83 * 1.075).ToString());
+                wb.Worksheets[1].Cells.Replace("<7>", (potenciagerada * 4.01 * 31 * 0.83 * 1.075).ToString());
+                wb.Worksheets[1].Cells.Replace("<8>", (potenciagerada * 4.86 * 31 * 0.83 * 1.075).ToString());
+                wb.Worksheets[1].Cells.Replace("<9>", (potenciagerada * 5.08 * 30 * 0.83 * 1.075).ToString());
+                wb.Worksheets[1].Cells.Replace("<10>", (potenciagerada * 5.37 * 31 * 0.83 * 1.075).ToString());
+                wb.Worksheets[1].Cells.Replace("<11>", (potenciagerada * 5.22 * 30 * 0.83 * 1.075).ToString());
+                wb.Worksheets[1].Cells.Replace("<12>", (potenciagerada * 5.59 * 31 * 0.83 * 1.075).ToString());
             }
             else if (rbtn40.Checked)
             {
-                wb.Worksheets[1].Cells.Replace("<1>", (potenciagerada * 5.48 * 31 * 0.83 * 0.60).ToString());
-                wb.Worksheets[1].Cells.Replace("<2>", (potenciagerada * 5.7 * 29 * 0.83 * 0.60).ToString());
-                wb.Worksheets[1].Cells.Replace("<3>", (potenciagerada * 4.85 * 31 * 0.83 * 0.60).ToString());
-                wb.Worksheets[1].Cells.Replace("<4>", (potenciagerada * 4.59 * 30 * 0.83 * 0.60).ToString());
-                wb.Worksheets[1].Cells.Replace("<5>", (potenciagerada * 3.95 * 31 * 0.83 * 0.60).ToString());
-                wb.Worksheets[1].Cells.Replace("<6>", (potenciagerada * 3.76 * 30 * 0.83 * 0.60).ToString());
-                wb.Worksheets[1].Cells.Replace("<7>", (potenciagerada * 4.01 * 31 * 0.83 * 0.60).ToString());
-                wb.Worksheets[1].Cells.Replace("<8>", (potenciagerada * 4.86 * 31 * 0.83 * 0.60).ToString());
-                wb.Worksheets[1].Cells.Replace("<9>", (potenciagerada * 5.08 * 30 * 0.83 * 0.60).ToString());
-                wb.Worksheets[1].Cells.Replace("<10>", (potenciagerada * 5.37 * 31 * 0.83 * 0.60).ToString());
-                wb.Worksheets[1].Cells.Replace("<11>", (potenciagerada * 5.22 * 30 * 0.83 * 0.60).ToString());
-                wb.Worksheets[1].Cells.Replace("<12>", (potenciagerada * 5.59 * 31 * 0.83 * 0.60).ToString());
+                wb.Worksheets[1].Cells.Replace("<1>", (potenciagerada * 5.48 * 31 * 0.83 * 1.05).ToString());
+                wb.Worksheets[1].Cells.Replace("<2>", (potenciagerada * 5.7 * 29 * 0.83 * 1.05).ToString());
+                wb.Worksheets[1].Cells.Replace("<3>", (potenciagerada * 4.85 * 31 * 0.83 * 1.05).ToString());
+                wb.Worksheets[1].Cells.Replace("<4>", (potenciagerada * 4.59 * 30 * 0.83 * 1.05).ToString());
+                wb.Worksheets[1].Cells.Replace("<5>", (potenciagerada * 3.95 * 31 * 0.83 * 1.05).ToString());
+                wb.Worksheets[1].Cells.Replace("<6>", (potenciagerada * 3.76 * 30 * 0.83 * 1.05).ToString());
+                wb.Worksheets[1].Cells.Replace("<7>", (potenciagerada * 4.01 * 31 * 0.83 * 1.05).ToString());
+                wb.Worksheets[1].Cells.Replace("<8>", (potenciagerada * 4.86 * 31 * 0.83 * 1.05).ToString());
+                wb.Worksheets[1].Cells.Replace("<9>", (potenciagerada * 5.08 * 30 * 0.83 * 1.05).ToString());
+                wb.Worksheets[1].Cells.Replace("<10>", (potenciagerada * 5.37 * 31 * 0.83 * 1.05).ToString());
+                wb.Worksheets[1].Cells.Replace("<11>", (potenciagerada * 5.22 * 30 * 0.83 * 1.05).ToString());
+                wb.Worksheets[1].Cells.Replace("<12>", (potenciagerada * 5.59 * 31 * 0.83 * 1.05).ToString());
             }
             else if (rbtn0.Checked)
             {
@@ -3366,17 +3400,17 @@ namespace Centraliza
         private void btninicio_Click(object sender, EventArgs e)
         {
             ClicaInicio();
-            Limpacampos(); 
+            Limpacampos();
         }
         private void btnconfiguracoes_Click(object sender, EventArgs e)
         {
             ClicaConf();
             Limpacampos();
             PaineisPrincipais(pnlconfiguracao);
-            btnconfgeral.BackgroundImage = Properties.Resources.FundoButton;
-            btnperfil.BackgroundImage = null;
-            pnlbconfiguracao.Visible = true;
-            pnlbperfil.Visible = false;
+            btnperfil.BackgroundImage = Properties.Resources.FundoButton;
+            btnconfgeral.BackgroundImage = null;
+            pnlbconfiguracao.Visible = false;
+            pnlbperfil.Visible = true;
         }
         private void btnorcamento_Click(object sender, EventArgs e)
         {
@@ -4386,7 +4420,7 @@ namespace Centraliza
         }
         private void rbtnsim30_CheckedChanged(object sender, EventArgs e)
         {
-            percas = 0.7;
+            percas = 1.1;
             if (txtsimpotger1.Text != "" && cbxsimmodmod1.Text != "")
             {
                 func.PesquisaPotMod(cbxsimmodmod1.Text, Banco);
@@ -4420,7 +4454,7 @@ namespace Centraliza
         }
         private void rbtnsim35_CheckedChanged(object sender, EventArgs e)
         {
-            percas = 0.65;
+            percas = 1.075;
             if (txtsimpotger1.Text != "" && cbxsimmodmod1.Text != "")
             {
                 func.PesquisaPotMod(cbxsimmodmod1.Text, Banco);
@@ -4454,7 +4488,7 @@ namespace Centraliza
         }
         private void rbtnsim40_CheckedChanged(object sender, EventArgs e)
         {
-            percas = 0.6;
+            percas = 1.05;
             if (txtsimpotger1.Text != "" && cbxsimmodmod1.Text != "")
             {
                 func.PesquisaPotMod(cbxsimmodmod1.Text, Banco);
@@ -4533,7 +4567,7 @@ namespace Centraliza
         }
         private void cbxsimmodmod1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cbxsimmodmod1.Text != "")
+            if (cbxsimmodmod1.Text != "" && cbxsimmodmod1.Text != "System.Data.DataRowView")
             {
                 func.PesquisaPotMod(cbxsimmodmod1.Text, Banco);
                 txtsimpotger1.Text = (double.Parse(txtsimqtdplaca1.Value.ToString()) * double.Parse(func.PotenciaMod)).ToString();
@@ -4542,7 +4576,7 @@ namespace Centraliza
         }
         private void cbxsimmodmod2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cbxsimmodmod2.Text != "")
+            if (cbxsimmodmod2.Text != "" && cbxsimmodmod2.Text != "System.Data.DataRowView")
             {
                 func.PesquisaPotMod(cbxsimmodmod2.Text, Banco);
                 txtsimpotger2.Text = (double.Parse(txtsimqtdplaca2.Value.ToString()) * double.Parse(func.PotenciaMod)).ToString();
@@ -4551,7 +4585,7 @@ namespace Centraliza
         }
         private void cbxsimmodmod3_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cbxsimmodmod3.Text != "")
+            if (cbxsimmodmod3.Text != "" && cbxsimmodmod3.Text != "System.Data.DataRowView")
             {
                 func.PesquisaPotMod(cbxsimmodmod3.Text, Banco);
                 txtsimpotger3.Text = (double.Parse(txtsimqtdplaca3.Value.ToString()) * double.Parse(func.PotenciaMod)).ToString();
@@ -4560,7 +4594,7 @@ namespace Centraliza
         }
         private void cbxsimmodmod4_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cbxsimmodmod4.Text != "")
+            if (cbxsimmodmod4.Text != "" && cbxsimmodmod4.Text != "System.Data.DataRowView")
             {
                 func.PesquisaPotMod(cbxsimmodmod4.Text, Banco);
                 txtsimpotger4.Text = (double.Parse(txtsimqtdplaca4.Value.ToString()) * double.Parse(func.PotenciaMod)).ToString();
@@ -4569,7 +4603,7 @@ namespace Centraliza
         }
         private void cbxsimmodmod5_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cbxsimmodmod5.Text != "")
+            if (cbxsimmodmod5.Text != "" && cbxsimmodmod5.Text != "System.Data.DataRowView")
             {
                 func.PesquisaPotMod(cbxsimmodmod5.Text, Banco);
                 txtsimpotger5.Text = (double.Parse(txtsimqtdplaca5.Value.ToString()) * double.Parse(func.PotenciaMod)).ToString();
@@ -4637,6 +4671,7 @@ namespace Centraliza
             }
             
         }
+
         //Ultima tela orçamento
         private void btnpasso4_Click(object sender, EventArgs e)
         {
@@ -4837,11 +4872,13 @@ namespace Centraliza
             try
             {
                 OpenFileDialog dialog = new OpenFileDialog();
-                dialog.Filter = "jpg files(*.jpg)|*.jpg|png files(*.png)|*.png|All Files(*.*)|*.*";
+                //dialog.Filter = "jpg files(*.jpg)|*.jpg|png files(*.png)|*.png|All Files(*.*)|*.*";
+                dialog.Filter = "Foto (*.jpg, *.jpeg, *.bmp, *.png, *.tif, *.tiff)|*.jpg; *.jpeg; *.bmp; *.png; *.tif; *.tiff|All Files(*.*)|*.*";
 
-                if(dialog.ShowDialog() == DialogResult.OK)
+                if (dialog.ShowDialog() == DialogResult.OK)
                 {
                     imageLocation = dialog.FileName;
+                    foto = dialog.FileName;
                     pbxuploadfoto.ImageLocation = imageLocation;
                     pbxUsuario.ImageLocation = imageLocation;
                     PictureBoxRedondo();
@@ -4858,15 +4895,17 @@ namespace Centraliza
             func.Senha = txtcsenha.Text;
             func.Login = txtcusuario.Text;
             func.email = txtcemail.Text;
+            func.FotoUsuario = ConverteBase64(foto);
 
             try
             {
-                func.InserirCredenciais(Banco);
-                MessageBox.Show("Foto do usuário salva", "Sucesso");
+                //func.InserirCredenciais(Banco);
+                func.AtualizaUsario(Banco, label56.Text);
+                MessageBox.Show("Dados atualizados com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show("Erro ao salvar foto do usuário", "Erro");
+                MessageBox.Show("Erro ao salvar dados do usuário. " + ex.Message, "Erro");
             }
 
         }
@@ -5187,6 +5226,7 @@ namespace Centraliza
         //Painel Projeto
         private void btnvoltaproj1_Click(object sender, EventArgs e)
         {
+            pnlnovoproj0.Visible = true;
             pnlnovoproj1.Visible = false;
             pnlnovoproj2.Visible = false;
             pnlnovoproj3.Visible = false;
@@ -5266,6 +5306,7 @@ namespace Centraliza
         }
         private void btnnovoprojeto_Click(object sender, EventArgs e)
         {
+            pnlnovoproj0.Visible = false;
             pnlnovoproj1.Visible = true;
             pnlnovoproj2.Visible = false;
             pnlnovoproj3.Visible = false;
@@ -5505,6 +5546,7 @@ namespace Centraliza
             lblpottotalmodprojeto.Text = pottotalmodprojeto;
             lblpottotinvprojeto.Text = pottotalinvprojeto;
 
+            pnlnovoproj0.Visible = false;
             pnlnovoproj1.Visible = false;
             pnlnovoproj2.Visible = false;
             pnlnovoproj3.Visible = true;
@@ -5590,6 +5632,7 @@ namespace Centraliza
             txtlargmodequip.Text = func.LarguraMod;
             txtgarantiamodequip.Text = func.GarantiaMod;
             txtreginmmodequip.Text = func.RegistroInmetro;
+            lblIdModulo.Text = func.Id.ToString();
             panel18.Visible = true;
         }
         private void btnsalvamodequip_Click(object sender, EventArgs e)
@@ -5606,6 +5649,8 @@ namespace Centraliza
                 func.LarguraMod = txtlargmodequip.Text;
                 func.GarantiaMod = txtgarantiamodequip.Text;
                 func.RegistroInmetro = txtreginmmodequip.Text;
+                func.Id = Convert.ToInt32(lblIdModulo.Text);
+                func.id = func.Id.ToString();
                 func.AlterarPaineis(Banco);
                 dgvmodulos.DataSource = func.AtualizaPaineis(Banco);
                 Limpacampos();
@@ -5639,7 +5684,7 @@ namespace Centraliza
                     func.ExcluiPainel(Banco, func.ModeloModulo);
                     Limpacampos();
                     CarregaCombobox();
-                    dgvinversores.DataSource = func.AtualizaPaineis(Banco);
+                    dgvmodulos.DataSource = func.AtualizaPaineis(Banco);
                     PaineisPrincipais(pnlmod1);
                 }
             }
@@ -5701,6 +5746,7 @@ namespace Centraliza
             txtgarantiainvequip.Text = func.GarantiaInv;
             txtreginminvequip.Text = func.RegistroINMETRO;
             txtqtdmpptinvequip.Value = Convert.ToDecimal(func.Qtdmppt);
+            lblIdInversor.Text = func.Id.ToString();
             panel20.Visible = true;
         }
         private void button75_Click(object sender, EventArgs e)
@@ -5738,6 +5784,8 @@ namespace Centraliza
                 func.GarantiaInv = txtgarantiainvequip.Text;
                 func.RegistroINMETRO = txtreginminvequip.Text;
                 func.Qtdmppt = txtqtdmpptinvequip.Value.ToString();
+                func.Id = Convert.ToInt32(lblIdInversor.Text);
+                func.id = func.Id.ToString();
                 func.AlterarInversor(Banco);
                 dgvinversores.DataSource = func.AtualizaInversor(Banco);
                 Limpacampos();
